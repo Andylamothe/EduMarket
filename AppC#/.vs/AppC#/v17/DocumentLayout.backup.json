@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\6240201\\Source\\Repos\\AppC#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E6154AF-0360-45EC-8376-E1B049AA02AE}|Frontend\\Frontend.csproj|c:\\users\\6240201\\source\\repos\\appc#\\frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9E6154AF-0360-45EC-8376-E1B049AA02AE}|Frontend\\Frontend.csproj|solutionrelative:frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6154AF-0360-45EC-8376-E1B049AA02AE}|Frontend\\Frontend.csproj|c:\\users\\6240201\\source\\repos\\appc#\\frontend\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9E6154AF-0360-45EC-8376-E1B049AA02AE}|Frontend\\Frontend.csproj|solutionrelative:frontend\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6154AF-0360-45EC-8376-E1B049AA02AE}|Frontend\\Frontend.csproj|c:\\users\\6240201\\source\\repos\\appc#\\frontend\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E6154AF-0360-45EC-8376-E1B049AA02AE}|Frontend\\Frontend.csproj|solutionrelative:frontend\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E6154AF-0360-45EC-8376-E1B049AA02AE}|Frontend\\Frontend.csproj|c:\\users\\6240201\\source\\repos\\appc#\\frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E6154AF-0360-45EC-8376-E1B049AA02AE}|Frontend\\Frontend.csproj|solutionrelative:frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +42,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\6240201\\Source\\Repos\\AppC#\\Frontend\\App.xaml",
+              "RelativeDocumentMoniker": "Frontend\\App.xaml",
+              "ToolTip": "C:\\Users\\6240201\\Source\\Repos\\AppC#\\Frontend\\App.xaml",
+              "RelativeToolTip": "Frontend\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T18:53:25.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\6240201\\Source\\Repos\\AppC#\\Frontend\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\6240201\\Source\\Repos\\AppC#\\Frontend\\App.xaml.cs",
+              "RelativeToolTip": "Frontend\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T18:53:15.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\6240201\\Source\\Repos\\AppC#\\Frontend\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Frontend\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\6240201\\Source\\Repos\\AppC#\\Frontend\\MainWindow.xaml",
+              "RelativeToolTip": "Frontend\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T18:52:25.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\6240201\\Source\\Repos\\AppC#\\Frontend\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Frontend\\MainWindow.xaml.cs",

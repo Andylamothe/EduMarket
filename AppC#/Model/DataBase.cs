@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Model.Entity.Utilisateur;
 
 namespace Model
@@ -12,7 +13,6 @@ namespace Model
 
         public DataBase(DbContextOptions<DataBase> options) : base(options)
         {
-
         }
 
         [Obsolete]

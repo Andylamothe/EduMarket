@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "TestIfWork\\Program.cs",
               "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\TestIfWork\\Program.cs",
               "RelativeToolTip": "TestIfWork\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T23:03:13.505Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Model\\DataBase.cs",
               "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\DataBase.cs",
               "RelativeToolTip": "Model\\DataBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T22:03:29.14Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Model",
+              "Title": "Model.csproj",
               "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\Model.csproj",
               "RelativeDocumentMoniker": "Model\\Model.csproj",
               "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\Model.csproj",

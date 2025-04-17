@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Model
+namespace Model.Entity.Utilisateur
 {
     public abstract class UserModel
     {

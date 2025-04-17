@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Model;
+using Model.Entity.Utilisateur;
 
-namespace Database
+namespace Model
 {
     public class DataBase : DbContext
     {
@@ -10,10 +10,9 @@ namespace Database
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Student> Students { get; set; }
 
-        public DataBase(DbContextOptionsBuilder optionsBuilder)
+        public DataBase(DbContextOptions<DataBase> options) : base(options)
         {
-            optionsBuilder.UseSqlite("Data Source=product.db");
-            optionsBuilder.UseLazyLoadingProxies();
+
         }
 
         [Obsolete]

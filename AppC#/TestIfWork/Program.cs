@@ -22,8 +22,8 @@ namespace App
                 .BuildServiceProvider();
 
             using var db = serviceProvider.GetRequiredService<DataBase>();
-            db.Database.EnsureDeleted(); // Drop si tu veux toujours repartir de 0
-            db.Database.EnsureCreated(); // Création
+            db.Database.EnsureDeleted();
+            db.Database.EnsureCreated(); 
             Console.WriteLine("Base de données (re)créée.");
         }
     }

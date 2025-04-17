@@ -30,7 +30,6 @@ namespace Model
         }
 
         [Obsolete]
-        // je n'est vraiment pas trouvé quelle autre methode utiliser pour faire cela comment le HasCheckConstraint 
         private void ApplyReductionConstraint<TEntity>(ModelBuilder modelBuilder) where TEntity : class
         {
             modelBuilder.Entity<TEntity>()

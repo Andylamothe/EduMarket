@@ -12,21 +12,33 @@ namespace Model.Entity.Utilisateur
         [Required]
         public string LastName { get; set; }
 
+        [Required]
+        public string Email { get; set; }
+
+        [Required]
+        public string Phone { get; set; }
+
+        [Required]
+        public string Login { get; set; }
+
+        [Required]
+        public string Password { get; set; }
+
         [Range(0, 100, ErrorMessage = "La note doit être entre 0 et 100.")]
         public float Reduction { get; set; }
     }
 
     public class Admin : UserModel
-    { 
-        
+    {
+
         public Admin()
         {
             Reduction = 0;
         }
     }
 
-    public class Departement : UserModel 
-    { 
+    public class Departement : UserModel
+    {
         public Departement()
         {
             Reduction = 100;

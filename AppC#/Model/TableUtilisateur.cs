@@ -19,20 +19,35 @@ namespace Model
     public class Admin : UserModel
     { 
         
+        public Admin()
+        {
+            Reduction = 0;
+        }
     }
 
     public class Departement : UserModel 
     { 
-
+        public Departement()
+        {
+            Reduction = 100;
+        }
     }
 
     public class Teacher : UserModel
     {
 
+        public Teacher()
+        {
+            Reduction = 15;
+        }
     }
 
     public class Student : UserModel
     {
 
+        public Student()
+        {
+            Reduction = 30;
+        }
     }
 }

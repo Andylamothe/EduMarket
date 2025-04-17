@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DataBase.cs",
               "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\DataBase.cs",
               "RelativeDocumentMoniker": "Model\\DataBase.cs",
               "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\DataBase.cs",
               "RelativeToolTip": "Model\\DataBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T22:03:29.14Z",
               "IsPinned": true,
@@ -44,13 +44,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Table.cs",
-              "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\Table.cs",
-              "RelativeDocumentMoniker": "Model\\Table.cs",
-              "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\Table.cs",
-              "RelativeToolTip": "Model\\Table.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TableUtilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\TableUtilisateur.cs",
+              "RelativeDocumentMoniker": "Model\\TableUtilisateur.cs",
+              "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\TableUtilisateur.cs",
+              "RelativeToolTip": "Model\\TableUtilisateur.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T11:48:03.547Z",
               "EditorCaption": ""
@@ -64,7 +64,8 @@
               "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\UI\\MainWindow.xaml",
               "RelativeToolTip": "UI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-17T11:45:49.113Z"
+              "WhenOpened": "2025-04-17T11:45:49.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,7 +77,8 @@
               "RelativeToolTip": "UI\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:45:48.089Z"
+              "WhenOpened": "2025-04-17T11:45:48.089Z",
+              "EditorCaption": ""
             }
           ]
         }

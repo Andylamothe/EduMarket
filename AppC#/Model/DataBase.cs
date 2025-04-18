@@ -1,17 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Model.Entity.Utilisateur;
+using Model.repository;
 
 namespace Model.DataBase
 {
-    public class DataBase : DbContext
+    public class DataBaseContext : DbContext
     {
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Departement> Departements { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Student> Students { get; set; }
 
-        public DataBase(DbContextOptions<DataBase> options) : base(options)
+        public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
+
         }
 
         [Obsolete]
@@ -34,94 +37,70 @@ namespace Model.DataBase
             modelBuilder.Entity<TEntity>()
                 .HasCheckConstraint($"CK_{typeof(TEntity).Name}_Reduction", "[Reduction] >= 0 AND [Reduction] <= 100");
         }
-
-        public override string ToString()
-        {
-            return base.ToString();
-        }
     }
-
     public class DataBaseUsage
     {
-        public static void InitializeData(DataBase db)
+        public static void InitializeData(IServiceProvider provider)
         {
-
-            if (!db.Admins.Any())
+            AddIfEmpty(provider, new Admin
             {
-                db.Admins.Add(new Admin
-                {
-                    FirstName = "Alice",
-                    LastName = "Dupont",
-                    Email = "alice.dupont@example.com",
-                    Phone = "0102030405",
-                    Reduction = 10
-                });
-            }
+                FirstName = "Alice",
+                LastName = "Dupont",
+                Email = "alice.dupont@example.com",
+                Phone = "0102030405",
+                Login = "alice.dupont",
+                Password = "1234"
+            });
 
-            if (!db.Teachers.Any())
+            AddIfEmpty(provider, new Teacher
             {
-                db.Teachers.Add(new Teacher
-                {
-                    FirstName = "Bernard",
-                    LastName = "Martin",
-                    Email = "bernard.martin@example.com",
-                    Phone = "0605040302",
-                    Reduction = 15
-                });
-            }
+                FirstName = "Bernard",
+                LastName = "Martin",
+                Email = "bernard.martin@example.com",
+                Phone = "0605040302",
+                Login = "bernard.martin",
+                Password = "1234"
+            });
 
-            if (!db.Students.Any())
+            AddIfEmpty(provider, new Student
             {
-                db.Students.Add(new Student
-                {
-                    FirstName = "Claire",
-                    LastName = "Durand",
-                    Email = "claire.durand@example.com",
-                    Phone = "0701020304",
-                    Reduction = 25
-                });
-            }
+                FirstName = "Claire",
+                LastName = "Durand",
+                Email = "claire.durand@example.com",
+                Phone = "0701020304",
+                Login = "claire.durand",
+                Password = "1234"
+            });
 
-            if (!db.Departements.Any())
+            AddIfEmpty(provider, new Departement
             {
-                db.Departements.Add(new Departement
-                {
-                    FirstName = "Informatique",
-                    LastName = "Faculté",
-                    Email = "contact@info.univ.fr",
-                    Phone = "0808070707",
-                    Reduction = 100
-                });
-            }
-
-            db.SaveChanges();
-            Console.WriteLine("Données insérées dans la base.");
+                FirstName = "Informatique",
+                LastName = "Faculté",
+                Email = "contact@info.univ.fr",
+                Phone = "0808070707",
+                Login = "informatique",
+                Password = "1234"
+            });
         }
 
-        public static void DisplayData(DataBase db)
+        private static void AddIfEmpty<TEntity>(IServiceProvider provider, TEntity entity) where TEntity : class
         {
-            var admins = db.Admins.ToList();
-            foreach (var admin in admins)
+            var repository = provider.GetRequiredService<IRepository<TEntity>>();
+            if (!repository.GetAllAsync().Result.Any())
             {
-                Console.WriteLine($"Admin: {admin.FirstName} {admin.LastName}, Email: {admin.Email}");
+                repository.AddAsync(entity).Wait();
+                Console.WriteLine($"{typeof(TEntity).Name} ajouté avec succès.");
             }
+        }
 
-            var teachers = db.Teachers.ToList();
-            foreach (var teacher in teachers)
-            {
-                Console.WriteLine($"Teacher: {teacher.FirstName} {teacher.LastName}, Email: {teacher.Email}");
-            }
+        public static void DisplayData<TEntity>(IServiceProvider provider) where TEntity : class
+        {
+            var repository = provider.GetRequiredService<IRepository<TEntity>>();
+            var entities = repository.GetAllAsync().Result;
 
-            var students = db.Students.ToList();
-            foreach (var student in students)
+            foreach (var entity in entities)
             {
-                Console.WriteLine($"Student: {student.FirstName} {student.LastName}, Email: {student.Email}");
-            }
-
-            var departements = db.Departements.ToList();
-            foreach (var departement in departements)
-            {
-                Console.WriteLine($"Departement: {departement.FirstName} {departement.LastName}, Email: {departement.Email}");
+                Console.WriteLine(entity?.ToString());
             }
         }
     }

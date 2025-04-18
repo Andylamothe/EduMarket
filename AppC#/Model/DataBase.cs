@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Model.Entity.Utilisateur;
 using Model.repository;
+using Model.table;
 
 namespace Model.DataBase
 {

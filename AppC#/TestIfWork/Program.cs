@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Model.DataBase;
-using Model.Entity.Utilisateur;
 using Model.repository;
+using Model.table;
 
 namespace App
 {

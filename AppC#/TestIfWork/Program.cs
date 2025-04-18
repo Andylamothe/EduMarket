@@ -1,7 +1,8 @@
-﻿using System.IO; // pour Path
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Model;
+using Model.DataBase;
+using Model.repository;
+using Model.table;
 
 namespace App
 {
@@ -14,17 +15,32 @@ namespace App
             var connectionString = $"Data Source={relativePath}";
 
             var serviceProvider = new ServiceCollection()
-                .AddDbContext<DataBase>(options =>
+                .AddDbContext<DataBaseContext>(options =>
                 {
                     options.UseSqlite(connectionString);
                     options.UseLazyLoadingProxies();
                 })
+                .AddScoped(typeof(IRepository<>), typeof(Repository<>))
                 .BuildServiceProvider();
 
-            using var db = serviceProvider.GetRequiredService<DataBase>();
-            db.Database.EnsureDeleted(); // Drop si tu veux toujours repartir de 0
-            db.Database.EnsureCreated(); // Création
-            Console.WriteLine("Base de données (re)créée.");
+            using (var scope = serviceProvider.CreateScope())
+            {
+                var provider = scope.ServiceProvider;
+                var db = provider.GetRequiredService<DataBaseContext>();
+
+                db.Database.EnsureDeleted();
+                db.Database.EnsureCreated();
+
+                Console.WriteLine("Base de données (re)créée.");
+
+                DataBaseUsage.InitializeData(provider);
+
+                DataBaseUsage.DisplayData<Admin>(provider);
+                DataBaseUsage.DisplayData<Teacher>(provider);
+                DataBaseUsage.DisplayData<Student>(provider);
+                DataBaseUsage.DisplayData<Departement>(provider);
+            }
         }
     }
 }
+

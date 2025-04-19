@@ -7,10 +7,7 @@ namespace Model.DataBase
 {
     public class DataBaseContext : DbContext
     {
-        public DbSet<Admin> Admins { get; set; }
-        public DbSet<Departement> Departements { get; set; }
-        public DbSet<Teacher> Teachers { get; set; }
-        public DbSet<Student> Students { get; set; }
+        public DbSet<UserModel> Users { get; set; }
 
         public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
@@ -20,22 +17,13 @@ namespace Model.DataBase
         [Obsolete]
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Admin>().ToTable("Admins");
-            modelBuilder.Entity<Departement>().ToTable("Departements");
-            modelBuilder.Entity<Teacher>().ToTable("Teachers");
-            modelBuilder.Entity<Student>().ToTable("Students");
-
-            ApplyReductionConstraint<Admin>(modelBuilder);
-            ApplyReductionConstraint<Teacher>(modelBuilder);
-            ApplyReductionConstraint<Student>(modelBuilder);
-            ApplyReductionConstraint<Departement>(modelBuilder);
-        }
-
-        [Obsolete]
-        private void ApplyReductionConstraint<TEntity>(ModelBuilder modelBuilder) where TEntity : class
-        {
-            modelBuilder.Entity<TEntity>()
-                .HasCheckConstraint($"CK_{typeof(TEntity).Name}_Reduction", "[Reduction] >= 0 AND [Reduction] <= 100");
+            modelBuilder.Entity<UserModel>()
+                .ToTable("Utilisateur")
+                .HasDiscriminator<string>("Discriminator")
+                .HasValue<Admin>("Admin")
+                .HasValue<Teacher>("Teacher")
+                .HasValue<Student>("Student")
+                .HasValue<Departement>("Departement");
         }
     }
     public class DataBaseUsage

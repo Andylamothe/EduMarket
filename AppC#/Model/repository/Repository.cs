@@ -34,8 +34,9 @@ namespace Model.repository
 
         public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            return await _context.Set<TEntity>().ToListAsync();
+            return await _context.Set<TEntity>().OfType<TEntity>().ToListAsync();
         }
+
 
         public async Task UpdateAsync(TEntity entity)
         {

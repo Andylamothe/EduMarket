@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Model\\repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\repository\\Repository.cs",
+              "RelativeToolTip": "Model\\repository\\Repository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:44:42.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\DataBase.cs",
+              "RelativeDocumentMoniker": "Model\\DataBase.cs",
+              "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\DataBase.cs",
+              "RelativeToolTip": "Model\\DataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:42:38.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TableUtilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TableUtilisateur.cs",
+              "RelativeDocumentMoniker": "Model\\table\\TableUtilisateur.cs",
+              "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TableUtilisateur.cs",
+              "RelativeToolTip": "Model\\table\\TableUtilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:42:32.945Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

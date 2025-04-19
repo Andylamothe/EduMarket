@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Model\\repository\\Repository.cs",
               "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\repository\\Repository.cs",
               "RelativeToolTip": "Model\\repository\\Repository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T20:44:42.391Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Model\\DataBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T20:42:38.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T20:42:38.882Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Model\\table\\TableUtilisateur.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T20:42:32.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T20:42:32.945Z"
             }
           ]
         }

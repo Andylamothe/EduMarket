@@ -9,6 +9,12 @@ namespace Model.DataBase
     {
         public DbSet<UserModel> Users { get; set; }
 
+        public DbSet<Item> Items { get; set; }
+
+        public DbSet<AccessRule> AccessRules { get; set; }
+
+        public DbSet<Transaction> Transactions { get; set; }
+
         public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
 
@@ -24,6 +30,12 @@ namespace Model.DataBase
                 .HasValue<Teacher>("Teacher")
                 .HasValue<Student>("Student")
                 .HasValue<Departement>("Departement");
+
+            modelBuilder.Entity<Item>().ToTable("Item");
+
+            modelBuilder.Entity<AccessRule>().ToTable("ItemAcces");
+
+            modelBuilder.Entity<Transaction>().ToTable("Transaction");
         }
     }
     public class DataBaseUsage

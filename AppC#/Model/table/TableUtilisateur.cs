@@ -5,7 +5,7 @@ namespace Model.table
     public abstract class UserModel
     {
         [Key]
-        public int Id { get; set; }
+        public int IdUser { get; set; }
         [Required]
         public string FirstName { get; set; }
 
@@ -26,6 +26,8 @@ namespace Model.table
 
         [Range(0, 100, ErrorMessage = "La note doit être entre 0 et 100.")]
         public float Reduction { get; set; }
+
+        public bool isActive { get; set; } = true;
     }
 
     public class Admin : UserModel

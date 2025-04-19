@@ -18,24 +18,12 @@ namespace Model.DataBase
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<UserModel>()
-        .ToTable("Utilisateurs")
-        .HasDiscriminator<string>("Discriminator")
-        .HasValue<Admin>("Admin")
-        .HasValue<Teacher>("Teacher")
-        .HasValue<Student>("Student")
-        .HasValue<Departement>("Departement");
-
-            ApplyReductionConstraint<Admin>(modelBuilder);
-            ApplyReductionConstraint<Teacher>(modelBuilder);
-            ApplyReductionConstraint<Student>(modelBuilder);
-            ApplyReductionConstraint<Departement>(modelBuilder);
-        }
-
-        [Obsolete]
-        private void ApplyReductionConstraint<TEntity>(ModelBuilder modelBuilder) where TEntity : class
-        {
-            modelBuilder.Entity<TEntity>()
-                .HasCheckConstraint($"CK_{typeof(TEntity).Name}_Reduction", "[Reduction] >= 0 AND [Reduction] <= 100");
+                .ToTable("Utilisateur")
+                .HasDiscriminator<string>("Discriminator")
+                .HasValue<Admin>("Admin")
+                .HasValue<Teacher>("Teacher")
+                .HasValue<Student>("Student")
+                .HasValue<Departement>("Departement");
         }
     }
     public class DataBaseUsage

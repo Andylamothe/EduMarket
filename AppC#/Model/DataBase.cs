@@ -7,6 +7,9 @@ namespace Model.DataBase
 {
     public class DataBaseContext : DbContext
     {
+        /*
+         * DbSet sont les tables de ma base de donnees et ces ceux-ci qu'on va utiliser dans les ViewModels. 
+         */
         public DbSet<UserModel> Users { get; set; }
 
         public DbSet<Item> Items { get; set; }
@@ -15,12 +18,18 @@ namespace Model.DataBase
 
         public DbSet<Transaction> Transactions { get; set; }
 
+        // On appelle le constructeur de la classe parente
+        // pour initialiser le contexte de la base de données.
         public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
-
+            
         }
 
-        [Obsolete]
+        /*
+         * Cette méthode est appelée lors de la création du modèle de données.
+         * En gros, cette methodes est utiliser pour configurer le modèle de données.
+         * Ces a ce moment la que je definit les tables et relation de ma base de donnees.
+         */
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<UserModel>()
@@ -38,6 +47,8 @@ namespace Model.DataBase
             modelBuilder.Entity<Transaction>().ToTable("Transaction");
         }
     }
+
+    // Cette class est seulement la pour plus facilement ajouter des donnes dans la base de donnees, un peu comme en java avec spring boot
     public class DataBaseUsage
     {
         public static void InitializeData(IServiceProvider provider)

@@ -3,6 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Model.table
 {
+    /*
+     * Cette classes est la pour faire les transactions entre les differents utilisateurs.
+     */
     public class Transaction
     {
         [Key]

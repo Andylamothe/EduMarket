@@ -18,8 +18,13 @@ namespace Model.DataBase
 
         public DbSet<Transaction> Transactions { get; set; }
 
-        // On appelle le constructeur de la classe parente
-        // pour initialiser le contexte de la base de données.
+        public DbSet<Catalogue> Catalogues { get; set; }
+
+        /*
+         * On appelle le constructeur de la classe parente
+         * 
+         * pour initialiser le contexte de la base de données.
+         */
         public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
             
@@ -34,7 +39,7 @@ namespace Model.DataBase
         {
             modelBuilder.Entity<UserModel>()
                 .ToTable("Utilisateur")
-                .HasDiscriminator<string>("Discriminator")
+                .HasDiscriminator<string>("Role")
                 .HasValue<Admin>("Admin")
                 .HasValue<Teacher>("Teacher")
                 .HasValue<Student>("Student")
@@ -45,6 +50,8 @@ namespace Model.DataBase
             modelBuilder.Entity<AccessRule>().ToTable("ItemAcces");
 
             modelBuilder.Entity<Transaction>().ToTable("Transaction");
+
+            modelBuilder.Entity<Catalogue>().ToTable("");
         }
     }
 

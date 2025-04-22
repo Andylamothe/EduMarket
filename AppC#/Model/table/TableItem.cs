@@ -31,8 +31,11 @@ namespace Model.table
         [Key]
         public int Id { get; set; }
 
-        // Ce champ va etre utiliser pour savoir quel type d'utilisateur a le droit d'acceder a l'item.
-        // Student, Teacher, Departement, Admin (moi qui va gerer cela)
+        /* 
+         * Ce champ va etre utiliser pour savoir quel type d'utilisateur a le droit d'acceder a l'item.
+         * 
+         * Student, Teacher, Departement, Admin (moi qui va gerer cela)
+         */
         public required string UserTypeDiscriminator { get; set; }
 
         public bool CanBuy { get; set; }

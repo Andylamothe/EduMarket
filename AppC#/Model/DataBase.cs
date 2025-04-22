@@ -70,6 +70,16 @@ namespace Model.DataBase
                 Password = "1234"
             });
 
+            Add(provider, new Admin
+            {
+                FirstName = "Alice",
+                LastName = "Dupont",
+                Email = "alice.dupont@example.com",
+                Phone = "0102030405",
+                Login = "alice.dupont",
+                Password = "1234"
+            });
+
             Add(provider, new Teacher
             {
                 FirstName = "Bernard",

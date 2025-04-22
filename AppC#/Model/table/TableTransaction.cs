@@ -17,11 +17,11 @@ namespace Model.table
         public int ReceiverId { get; set; }
 
         [ForeignKey(nameof(ReceiverId))]
-        public virtual UserModel Receiver { get; set; }
+        public virtual required UserModel Receiver { get; set; }
 
         public int ItemId { get; set; }
         [ForeignKey(nameof(ItemId))]
-        public virtual Item TransactionItem { get; set; }
+        public virtual required Item TransactionItem { get; set; }
 
         public bool IsActive { get; set; } = true;
     }

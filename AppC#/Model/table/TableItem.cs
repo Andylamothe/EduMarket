@@ -12,13 +12,13 @@ namespace Model.table
         public int ItemId { get; set; }
 
         [Required]
-        public string Name { get; set; }
+        public required string Name { get; set; }
 
         [Required]
         public float Price { get; set; }
 
         [Required]
-        public string Description { get; set; }
+        public required string Description { get; set; }
     }
 
     /*

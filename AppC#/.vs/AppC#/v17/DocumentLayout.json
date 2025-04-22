@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Model\\table\\TableTransaction.cs",
               "ToolTip": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\Model\\table\\TableTransaction.cs",
               "RelativeToolTip": "Model\\table\\TableTransaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T13:07:39.002Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Model\\table\\TableUtilisateur.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T12:50:12.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T12:50:12.921Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Model\\table\\TableCatalogue.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T12:25:15.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T12:25:15.83Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Model\\table\\TableItem.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAwwBQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T21:12:24.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T21:12:24.495Z"
             },
             {
               "$type": "Document",

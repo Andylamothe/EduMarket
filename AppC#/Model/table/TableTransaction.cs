@@ -13,7 +13,7 @@ namespace Model.table
         public int SenderId { get; set; }
 
         [ForeignKey(nameof(SenderId))]
-        public virtual UserModel Sender { get; set; }
+        public virtual required UserModel Sender { get; set; }
         public int ReceiverId { get; set; }
 
         [ForeignKey(nameof(ReceiverId))]

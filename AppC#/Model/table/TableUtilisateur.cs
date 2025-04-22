@@ -6,6 +6,9 @@ namespace Model.table
      * Cette classe est la classe de base pour tout les types d'utilisateur.
      * 
      * L'attribut Reduction est la pour definir la reduction de chaque utilisateur, selon leur achat qu'il vont faire.
+     * 
+     * utilisation d'une classe abstract pour ne pas pouvoir instancier un UserModel
+     * (il n'est pas possible de faire new UserModel)(impossible)
      */
     public abstract class UserModel
     {

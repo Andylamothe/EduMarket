@@ -51,7 +51,7 @@ namespace Model.DataBase
 
             modelBuilder.Entity<Transaction>().ToTable("Transaction");
 
-            modelBuilder.Entity<Catalogue>().ToTable("");
+            modelBuilder.Entity<Catalogue>().ToTable("Catalogue");
         }
     }
 

@@ -1,5 +1,4 @@
-﻿
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Model.table
@@ -7,7 +6,7 @@ namespace Model.table
     public class Catalogue
     {
         [Key]
-        private int CatalogueId {  get; set; }
+        public int CatalogueId {  get; set; }
 
         public int ItemId { get; set; }
 

@@ -33,6 +33,22 @@ namespace Model.table
         public float Reduction { get; set; }
 
         public bool IsActive { get; set; } = true;
+
+
+        public override string ToString()
+        {
+            return "Admin{" +
+                "IdUser: " + this.IdUser +
+                ", FirstName: " + this.FirstName +
+                ", LastName: " + this.LastName +
+                ", Email: " + this.Email +
+                ", Phone: " + this.Phone +
+                ", Login: " + this.Login +
+                ", Password: " + this.Password +
+                ", Reduction: " + this.Reduction +
+                ", IsActive: " + this.IsActive +
+                "}";
+        }
     }
 
     public class Admin : UserModel
@@ -43,20 +59,6 @@ namespace Model.table
             Reduction = 0;
         }
 
-        public override string ToString()
-        {
-            return "Admin{" +
-                "IdUser: " + this.IdUser +
-                "FirstName: " + this.FirstName +
-                "LastName: " + this.LastName +
-                "Email: " + this.Email +
-                "Phone: " + this.Phone +
-                "Login: " + this.Login +
-                "Password: " + this.Password +
-                "Reduction: " + this.Reduction +
-                "IsActive: " + this.IsActive +
-                "}";
-        }
 
     }
 
@@ -66,21 +68,6 @@ namespace Model.table
         {
             Reduction = 100;
         }
-
-        public override string ToString()
-        {
-            return "Admin{" +
-                "IdUser: " + this.IdUser +
-                "FirstName: " + this.FirstName +
-                "LastName: " + this.LastName +
-                "Email: " + this.Email +
-                "Phone: " + this.Phone +
-                "Login: " + this.Login +
-                "Password: " + this.Password +
-                "Reduction: " + this.Reduction +
-                "IsActive: " + this.IsActive +
-                "}";
-        }
     }
 
     public class Teacher : UserModel
@@ -89,21 +76,6 @@ namespace Model.table
         public Teacher()
         {
             Reduction = 15;
-        }
-
-        public override string ToString()
-        {
-            return "Admin{" +
-                "IdUser: " + this.IdUser +
-                "FirstName: " + this.FirstName +
-                "LastName: " + this.LastName +
-                "Email: " + this.Email +
-                "Phone: " + this.Phone +
-                "Login: " + this.Login +
-                "Password: " + this.Password +
-                "Reduction: " + this.Reduction +
-                "IsActive: " + this.IsActive +
-                "}";
         }
     }
 
@@ -115,19 +87,5 @@ namespace Model.table
             Reduction = 30;
         }
 
-        public override string ToString()
-        {
-            return "Admin{" +
-                "IdUser: " + this.IdUser +
-                "FirstName: " + this.FirstName +
-                "LastName: " + this.LastName +
-                "Email: " + this.Email +
-                "Phone: " + this.Phone +
-                "Login: " + this.Login +
-                "Password: " + this.Password +
-                "Reduction: " + this.Reduction +
-                "IsActive: " + this.IsActive +
-                "}";
-        }
     }
 }

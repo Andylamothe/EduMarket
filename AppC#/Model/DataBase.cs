@@ -104,6 +104,7 @@ namespace Model.DataBase
         private static void Add<TEntity>(IServiceProvider provider, TEntity entity) where TEntity : class
         {
             var repository = provider.GetRequiredService<IRepository<TEntity>>();
+            repository.AddAsync(entity);
         }
 
         public static void DisplayData<TEntity>(IServiceProvider provider) where TEntity : class

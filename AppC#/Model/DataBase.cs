@@ -60,7 +60,7 @@ namespace Model.DataBase
     {
         public static void InitializeData(IServiceProvider provider)
         {
-            AddIfEmpty(provider, new Admin
+            Add(provider, new Admin
             {
                 FirstName = "Alice",
                 LastName = "Dupont",
@@ -70,7 +70,7 @@ namespace Model.DataBase
                 Password = "1234"
             });
 
-            AddIfEmpty(provider, new Teacher
+            Add(provider, new Teacher
             {
                 FirstName = "Bernard",
                 LastName = "Martin",
@@ -80,7 +80,7 @@ namespace Model.DataBase
                 Password = "1234"
             });
 
-            AddIfEmpty(provider, new Student
+            Add(provider, new Student
             {
                 FirstName = "Claire",
                 LastName = "Durand",
@@ -90,7 +90,7 @@ namespace Model.DataBase
                 Password = "1234"
             });
 
-            AddIfEmpty(provider, new Departement
+            Add(provider, new Departement
             {
                 FirstName = "Informatique",
                 LastName = "Faculté",
@@ -101,14 +101,9 @@ namespace Model.DataBase
             });
         }
 
-        private static void AddIfEmpty<TEntity>(IServiceProvider provider, TEntity entity) where TEntity : class
+        private static void Add<TEntity>(IServiceProvider provider, TEntity entity) where TEntity : class
         {
             var repository = provider.GetRequiredService<IRepository<TEntity>>();
-            if (!repository.GetAllAsync().Result.Any())
-            {
-                repository.AddAsync(entity).Wait();
-                Console.WriteLine($"{typeof(TEntity).Name} ajouté avec succès.");
-            }
         }
 
         public static void DisplayData<TEntity>(IServiceProvider provider) where TEntity : class

@@ -92,4 +92,12 @@ namespace Model.table
         }
 
     }
+
+    public static class DiscriminantTableUtilisateur
+    {
+        public static readonly string ADMIN = "admin";
+        public static readonly string STUDENT = "student";
+        public static readonly string TEACHER = "teacher";
+        public static readonly string DEPARTEMENT = "departement";
+    }
 }

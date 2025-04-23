@@ -40,10 +40,10 @@ namespace Model.DataBase
             modelBuilder.Entity<UserModel>()
                 .ToTable("Utilisateur")
                 .HasDiscriminator<string>("Role")
-                .HasValue<Admin>("Admin")
-                .HasValue<Teacher>("Teacher")
-                .HasValue<Student>("Student")
-                .HasValue<Departement>("Departement");
+                .HasValue<Admin>(DiscriminantTableUtilisateur.ADMIN)
+                .HasValue<Teacher>(DiscriminantTableUtilisateur.TEACHER)
+                .HasValue<Student>(DiscriminantTableUtilisateur.STUDENT)
+                .HasValue<Departement>(DiscriminantTableUtilisateur.DEPARTEMENT);
 
             modelBuilder.Entity<Item>().ToTable("Item");
 
@@ -72,11 +72,11 @@ namespace Model.DataBase
 
             Add(provider, new Admin
             {
-                FirstName = "Alice",
-                LastName = "Dupont",
-                Email = "alice.dupont@example.com",
-                Phone = "0102030405",
-                Login = "alice.dupont",
+                FirstName = "DODO",
+                LastName = "SLEEP",
+                Email = "dodo.sleep@example.com",
+                Phone = "1231231234",
+                Login = "dodo.sleep",
                 Password = "1234"
             });
 

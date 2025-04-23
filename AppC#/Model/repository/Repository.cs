@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Model.DataBase;
-using Model.table;
 
 namespace Model.repository
 {

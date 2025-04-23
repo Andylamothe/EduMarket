@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\",
+  "WorkspaceRootPath": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA133D5B-E31F-41E9-BF51-C86BEC311922}|Service\\Service.csproj|c:\\users\\6240201\\source\\repos\\appcsharp\\appc#\\service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA133D5B-E31F-41E9-BF51-C86BEC311922}|Service\\Service.csproj|solutionrelative:service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\6240201\\bureau\\appcsharp\\appc#\\model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\6240201\\source\\repos\\appcsharp\\appc#\\model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44332FDA-63E3-4D79-A813-9D8C2BD2C1DC}|TestIfWork\\TestIfWork.csproj|c:\\users\\6240201\\bureau\\appcsharp\\appc#\\testifwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44332FDA-63E3-4D79-A813-9D8C2BD2C1DC}|TestIfWork\\TestIfWork.csproj|solutionrelative:testifwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\6240201\\source\\repos\\appcsharp\\appc#\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\6240201\\bureau\\appcsharp\\appc#\\model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\6240201\\source\\repos\\appcsharp\\appc#\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\6240201\\bureau\\appcsharp\\appc#\\model\\table\\tableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\6240201\\bureau\\appcsharp\\appc#\\model\\table\\tablecatalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tablecatalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\6240201\\bureau\\appcsharp\\appc#\\model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\6240201\\bureau\\appcsharp\\appc#\\model\\table\\tabletransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tabletransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA133D5B-E31F-41E9-BF51-C86BEC311922}|Service\\Service.csproj|c:\\users\\6240201\\bureau\\appcsharp\\appc#\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FA133D5B-E31F-41E9-BF51-C86BEC311922}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\Service\\Class1.cs",
-              "RelativeDocumentMoniker": "Service\\Class1.cs",
-              "ToolTip": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\Service\\Class1.cs",
-              "RelativeToolTip": "Service\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\TestIfWork\\Program.cs",
+              "RelativeDocumentMoniker": "TestIfWork\\Program.cs",
+              "ToolTip": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\TestIfWork\\Program.cs",
+              "RelativeToolTip": "TestIfWork\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA2wC4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:50:39.575Z",
+              "WhenOpened": "2025-04-23T00:22:29.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\Model\\Class1.cs",
-              "RelativeDocumentMoniker": "Model\\Class1.cs",
-              "ToolTip": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\Model\\Class1.cs",
-              "RelativeToolTip": "Model\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Model\\repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\repository\\Repository.cs",
+              "RelativeToolTip": "Model\\repository\\Repository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:48:03.547Z",
+              "WhenOpened": "2025-04-23T00:12:12.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Service",
+              "DocumentMoniker": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Service\\Service.csproj",
+              "RelativeDocumentMoniker": "Service\\Service.csproj",
+              "ToolTip": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Service\\Service.csproj",
+              "RelativeToolTip": "Service\\Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-23T00:11:13.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\UI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\UI\\MainWindow.xaml",
-              "RelativeToolTip": "UI\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-17T11:45:49.113Z"
+              "Title": "TableUtilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\table\\TableUtilisateur.cs",
+              "RelativeDocumentMoniker": "Model\\table\\TableUtilisateur.cs",
+              "ToolTip": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\table\\TableUtilisateur.cs",
+              "RelativeToolTip": "Model\\table\\TableUtilisateur.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:50:12.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TableCatalogue.cs",
+              "DocumentMoniker": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\table\\TableCatalogue.cs",
+              "RelativeDocumentMoniker": "Model\\table\\TableCatalogue.cs",
+              "ToolTip": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\table\\TableCatalogue.cs",
+              "RelativeToolTip": "Model\\table\\TableCatalogue.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:25:15.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\UI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "UI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\UI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "UI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TableItem.cs",
+              "DocumentMoniker": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\table\\TableItem.cs",
+              "RelativeDocumentMoniker": "Model\\table\\TableItem.cs",
+              "ToolTip": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\table\\TableItem.cs",
+              "RelativeToolTip": "Model\\table\\TableItem.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwBsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:45:48.089Z"
+              "WhenOpened": "2025-04-19T21:12:24.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TableTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\table\\TableTransaction.cs",
+              "RelativeDocumentMoniker": "Model\\table\\TableTransaction.cs",
+              "ToolTip": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\table\\TableTransaction.cs",
+              "RelativeToolTip": "Model\\table\\TableTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:07:39.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\DataBase.cs",
+              "RelativeDocumentMoniker": "Model\\DataBase.cs",
+              "ToolTip": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\DataBase.cs",
+              "RelativeToolTip": "Model\\DataBase.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAADgv4IAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:42:38.882Z",
+              "EditorCaption": ""
             }
           ]
         }

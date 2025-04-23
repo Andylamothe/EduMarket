@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Model.DataBase;
+using Model.table;
 
 namespace Model.repository
 {
@@ -13,7 +14,6 @@ namespace Model.repository
         Task<TEntity> GetByIdAsync(int id);
         Task<IEnumerable<TEntity>> GetAllAsync();
         Task UpdateAsync(TEntity entity);
-        Task DeleteAsync(int id);
     }
     
     /*
@@ -51,16 +51,6 @@ namespace Model.repository
         {
             _context.Set<TEntity>().Update(entity);
             await _context.SaveChangesAsync();
-        }
-
-        public async Task DeleteAsync(int id)
-        {
-            var entity = await _context.Set<TEntity>().FindAsync(id);
-            if (entity != null)
-            {
-                _context.Set<TEntity>().Remove(entity);
-                await _context.SaveChangesAsync();
-            }
         }
     }
 }

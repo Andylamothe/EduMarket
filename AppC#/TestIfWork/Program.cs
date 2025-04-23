@@ -35,9 +35,16 @@ namespace App
 
                 DataBaseUsage.InitializeData(provider);
 
+                Console.WriteLine("ADMIN:");
                 DataBaseUsage.DisplayData<Admin>(provider);
+
+                Console.WriteLine("TEACHER:");
                 DataBaseUsage.DisplayData<Teacher>(provider);
+
+                Console.WriteLine("STUDENT:");
                 DataBaseUsage.DisplayData<Student>(provider);
+
+                Console.WriteLine("DEPARTEMENT:");
                 DataBaseUsage.DisplayData<Departement>(provider);
             }
         }

@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+
 namespace Model.table
 {
     /*
@@ -40,7 +41,7 @@ namespace Model.table
 
         public override string ToString()
         {
-            return "Admin{" +
+            return "UserModel{" +
                 "IdUser: " + this.IdUser +
                 ", FirstName: " + this.FirstName +
                 ", LastName: " + this.LastName +

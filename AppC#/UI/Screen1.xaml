@@ -20,6 +20,7 @@
                    FontWeight="Bold" 
                    Margin="20,20,20,10"
                    HorizontalAlignment="Center"/>
+        
 
         <Grid Grid.Row="1" Margin="20">
             <!-- Add your screen 1 content here -->

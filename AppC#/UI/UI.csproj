@@ -8,4 +8,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="calendar_month_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="home_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="inventory_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="logout_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="calendar_month_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="home_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="inventory_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="logout_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+
 </Project>

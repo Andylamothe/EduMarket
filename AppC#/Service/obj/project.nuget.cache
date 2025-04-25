@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YnTD47EzvXo=",
+  "dgSpecHash": "14g8bQCirp0=",
   "success": true,
   "projectFilePath": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\Service\\Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\6240201\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

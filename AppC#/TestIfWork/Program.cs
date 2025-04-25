@@ -15,11 +15,7 @@ namespace App
             var connectionString = $"Data Source={relativePath}";
 
             var serviceProvider = new ServiceCollection()
-                .AddDbContext<DataBaseContext>(options =>
-                {
-                    options.UseSqlite(connectionString);
-                    options.UseLazyLoadingProxies();
-                })
+                .AddDbContext<DataBaseContext>()
                 .AddScoped(typeof(IRepository<>), typeof(Repository<>))
                 .BuildServiceProvider();
 

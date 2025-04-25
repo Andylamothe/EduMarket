@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Model.repository;
 using Model.table;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Model.DataBase
 {
@@ -14,20 +15,25 @@ namespace Model.DataBase
 
         public DbSet<Item> Items { get; set; }
 
-        public DbSet<AccessRule> AccessRules { get; set; }
-
         public DbSet<Transaction> Transactions { get; set; }
 
         public DbSet<Catalogue> Catalogues { get; set; }
+
+        public DbSet<Groupe> Groupes { get; set; }
+
+        public DbSet<Permission> Permissions { get; set; }
+
+        public DbSet<GroupePermission> PermissionsPermission { get; set; }
 
         /*
          * On appelle le constructeur de la classe parente
          * 
          * pour initialiser le contexte de la base de données.
          */
-        public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            
+            optionsBuilder.UseSqlite("Data Source=db/test.db");
+            optionsBuilder.UseLazyLoadingProxies();
         }
 
         /*
@@ -40,14 +46,18 @@ namespace Model.DataBase
             modelBuilder.Entity<UserModel>()
                 .ToTable("Utilisateur")
                 .HasDiscriminator<string>("Role")
-                .HasValue<Admin>("Admin")
-                .HasValue<Teacher>("Teacher")
-                .HasValue<Student>("Student")
-                .HasValue<Departement>("Departement");
+                .HasValue<Admin>(DiscriminantTableUtilisateur.ADMIN)
+                .HasValue<Teacher>(DiscriminantTableUtilisateur.TEACHER)
+                .HasValue<Student>(DiscriminantTableUtilisateur.STUDENT)
+                .HasValue<Departement>(DiscriminantTableUtilisateur.DEPARTEMENT);
+
+            modelBuilder.Entity<Groupe>().ToTable("Groupe");
+
+            modelBuilder.Entity<Permission>().ToTable("Permission");
+
+            modelBuilder.Entity<GroupePermission>().ToTable("GroupePermission");
 
             modelBuilder.Entity<Item>().ToTable("Item");
-
-            modelBuilder.Entity<AccessRule>().ToTable("ItemAcces");
 
             modelBuilder.Entity<Transaction>().ToTable("Transaction");
 
@@ -55,60 +65,14 @@ namespace Model.DataBase
         }
     }
 
-    // Cette class est seulement la pour plus facilement ajouter des donnes dans la base de donnees, un peu comme en java avec spring boot
+    /*
+     * Cette class est seulement la pour plus facilement ajouter des donnes dans la base de donnees, un peu comme en java avec spring boot
+     */
     public class DataBaseUsage
     {
         public static void InitializeData(IServiceProvider provider)
         {
-            Add(provider, new Admin
-            {
-                FirstName = "Alice",
-                LastName = "Dupont",
-                Email = "alice.dupont@example.com",
-                Phone = "0102030405",
-                Login = "alice.dupont",
-                Password = "1234"
-            });
-
-            Add(provider, new Admin
-            {
-                FirstName = "Alice",
-                LastName = "Dupont",
-                Email = "alice.dupont@example.com",
-                Phone = "0102030405",
-                Login = "alice.dupont",
-                Password = "1234"
-            });
-
-            Add(provider, new Teacher
-            {
-                FirstName = "Bernard",
-                LastName = "Martin",
-                Email = "bernard.martin@example.com",
-                Phone = "0605040302",
-                Login = "bernard.martin",
-                Password = "1234"
-            });
-
-            Add(provider, new Student
-            {
-                FirstName = "Claire",
-                LastName = "Durand",
-                Email = "claire.durand@example.com",
-                Phone = "0701020304",
-                Login = "claire.durand",
-                Password = "1234"
-            });
-
-            Add(provider, new Departement
-            {
-                FirstName = "Informatique",
-                LastName = "Faculté",
-                Email = "contact@info.univ.fr",
-                Phone = "0808070707",
-                Login = "informatique",
-                Password = "1234"
-            });
+            
         }
 
         private static void Add<TEntity>(IServiceProvider provider, TEntity entity) where TEntity : class

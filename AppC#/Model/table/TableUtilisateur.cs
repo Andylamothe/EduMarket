@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 
 namespace Model.table
@@ -33,8 +34,13 @@ namespace Model.table
         [Required]
         public required string Password { get; set; }
 
-        [Range(0, 100, ErrorMessage = "La note doit être entre 0 et 100.")]
+        [Range(0, 100, ErrorMessage = "La reduction doit être entre 0 et 100.")]
         public float Reduction { get; set; }
+
+        public int GroupId { get; set; }
+
+        [ForeignKey(nameof(GroupId))]
+        public virtual required Groupe GroupeUser { get; set; }
 
         public bool IsActive { get; set; } = true;
 
@@ -91,5 +97,13 @@ namespace Model.table
             Reduction = 30;
         }
 
+    }
+
+    public static class DiscriminantTableUtilisateur
+    {
+        public static readonly string ADMIN = "admin";
+        public static readonly string STUDENT = "student";
+        public static readonly string TEACHER = "teacher";
+        public static readonly string DEPARTEMENT = "departement";
     }
 }

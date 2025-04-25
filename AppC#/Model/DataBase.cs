@@ -77,8 +77,12 @@ namespace Model.DataBase
 
         private static void Add<TEntity>(IServiceProvider provider, TEntity entity) where TEntity : class
         {
+<<<<<<< HEAD
             var repository = provider.GetRequiredService<IRepository<TEntity>>();
             repository.AddAsync(entity);
+=======
+            provider.GetRequiredService<IRepository<TEntity>>().AddAsync(entity);
+>>>>>>> 19c22d0350940440ffe99683d3ae64114b539b77
         }
 
         public static void DisplayData<TEntity>(IServiceProvider provider) where TEntity : class

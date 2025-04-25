@@ -51,8 +51,7 @@
               "ViewState": "AgIAAA4AAAAAAAAAAADwvxQAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T12:29:33.805Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "TestIfWork\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T12:27:37.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T12:27:37.285Z"
             },
             {
               "$type": "Document",
@@ -87,7 +85,7 @@
               "RelativeDocumentMoniker": "Model\\DataBase.cs",
               "ToolTip": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\Model\\DataBase.cs",
               "RelativeToolTip": "Model\\DataBase.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAkwFwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwEUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T20:42:38.882Z",
               "EditorCaption": ""
@@ -102,8 +100,7 @@
               "RelativeToolTip": "Model\\table\\TableItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T22:17:53.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T22:17:53.591Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Model\\table\\TableTransaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T22:02:42.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T22:02:42.684Z"
             },
             {
               "$type": "Document",
@@ -128,8 +124,7 @@
               "RelativeToolTip": "Model\\table\\TablePermision.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T21:59:48.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T21:59:48.465Z"
             },
             {
               "$type": "Document",
@@ -141,8 +136,7 @@
               "RelativeToolTip": "Model\\table\\TableUtilisateur.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowCQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:25:02.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T18:25:02.403Z"
             }
           ]
         }

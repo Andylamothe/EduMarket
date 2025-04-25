@@ -65,7 +65,9 @@ namespace Model.DataBase
         }
     }
 
-    // Cette class est seulement la pour plus facilement ajouter des donnes dans la base de donnees, un peu comme en java avec spring boot
+    /*
+     * Cette class est seulement la pour plus facilement ajouter des donnes dans la base de donnees, un peu comme en java avec spring boot
+     */
     public class DataBaseUsage
     {
         public static void InitializeData(IServiceProvider provider)

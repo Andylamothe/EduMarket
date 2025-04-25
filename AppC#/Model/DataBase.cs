@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Model.repository;
 using Model.table;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Model.DataBase
 {
@@ -29,9 +30,10 @@ namespace Model.DataBase
          * 
          * pour initialiser le contexte de la base de données.
          */
-        public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            
+            optionsBuilder.UseSqlite("Data Source=db/test.db");
+            optionsBuilder.UseLazyLoadingProxies();
         }
 
         /*

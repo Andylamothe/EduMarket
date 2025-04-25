@@ -34,7 +34,7 @@ namespace Model.table
         [Required]
         public required string Password { get; set; }
 
-        [Range(0, 100, ErrorMessage = "La note doit être entre 0 et 100.")]
+        [Range(0, 100, ErrorMessage = "La reduction doit être entre 0 et 100.")]
         public float Reduction { get; set; }
 
         public int GroupId { get; set; }

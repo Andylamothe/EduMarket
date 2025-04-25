@@ -1421,11 +1421,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\TestIfWork\\TestIfWork.csproj",
+      "projectUniqueName": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\TestIfWork\\TestIfWork.csproj",
       "projectName": "TestIfWork",
-      "projectPath": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\TestIfWork\\TestIfWork.csproj",
+      "projectPath": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\TestIfWork\\TestIfWork.csproj",
       "packagesPath": "C:\\Users\\6240201\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\TestIfWork\\obj\\",
+      "outputPath": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\TestIfWork\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1447,8 +1447,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\6240201\\Bureau\\AppCsharp\\AppC#\\Model\\Model.csproj"
+            "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\Model\\Model.csproj"
             }
           }
         }

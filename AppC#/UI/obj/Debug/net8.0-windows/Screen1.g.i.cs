@@ -53,7 +53,7 @@ namespace UI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UI;component/screen1.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UI;V1.0.0.0;component/screen1.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Screen1.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

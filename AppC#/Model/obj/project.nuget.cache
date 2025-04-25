@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iLl20alpr6c=",
+  "dgSpecHash": "RbF581Cva5I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\6240201\\Source\\Repos\\dev\\AppCsharp\\AppC#\\Model\\Model.csproj",
+  "projectFilePath": "C:\\Users\\6240201\\Source\\Repos\\AppCsharp\\AppC#\\Model\\Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\6240201\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\6240201\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.4\\microsoft.data.sqlite.core.9.0.4.nupkg.sha512",

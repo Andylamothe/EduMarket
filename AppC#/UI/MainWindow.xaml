@@ -6,43 +6,91 @@
         xmlns:local="clr-namespace:UI"
         mc:Ignorable="d"
         Title="Main Window"
-        WindowState="Maximized" Background="#FF1D2D44"
+        WindowState="Maximized" Background="#FF1D2D44" d:DesignWidth="1883.867"
         >
+    <Window.Resources>
+        <Style x:Key="NavigationButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF34495E"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="107*"/>
-            <ColumnDefinition Width="93*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Horizontal" Grid.Row="0" Background="#748CAB" Margin="0,0,0,728" Grid.ColumnSpan="2" Grid.RowSpan="2">
+        <!--  Menu  -->
+        <Button x:Name="btnMenu" 
+                Width="40" 
+                Height="40" 
+                Margin="10,10,0,10" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top"
+                Panel.ZIndex="1"
+                Click="ToggleNavigationMenu">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/menu-regular-24.png"/>
+            </Button.Background>
+        </Button>
 
-            <Button Margin="2,2,2,2" Panel.ZIndex="-2" x:Name="btnHome" Width="48" Height="52" Click="NavigateToScreen1">
-                <Button.Background>
-                    <ImageBrush Stretch="Uniform" ImageSource="/home_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png"/>
-                </Button.Background>
-            </Button>
-            <Button x:Name="btnScreen2" Content="" Click="NavigateToScreen2" Width="48" Height="52" Panel.ZIndex="-2" Margin="5" >
-                <Button.Background>
-                    <ImageBrush ImageSource="/logout_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png"/>
-                </Button.Background>
-            </Button>
-            <Button x:Name="btnScreen3" Width="48" Height="52" Panel.ZIndex="-2" Margin="5"  Click="NavigateToScreen3">
-                <Button.Background>
-                    <ImageBrush ImageSource="/inventory_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png"/>
-                </Button.Background>
-            </Button>
-            <Button x:Name="btnScreen4" Width="48" Height="52" Panel.ZIndex="-2" Margin="5" Click="NavigateToScreen4">
-                <Button.Background>
-                    <ImageBrush ImageSource="/calendar_month_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png"/>
-                </Button.Background>
-            </Button>
-        </StackPanel>
-
-        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden" Grid.ColumnSpan="2"/>
+        <!-- La sidebar -->
+        <Border x:Name="navMenu" 
+                Grid.Row="1" 
+                Width="200" 
+                Background="#FF1D2D44" 
+                Visibility="Collapsed"
+                Panel.ZIndex="2"
+                HorizontalAlignment="Left">
+            <StackPanel Margin="10">
+                <Button Content="Catalogue" 
+                        Margin="0,5" 
+                        Click="NavigateToCatalogue"
+                        Style="{StaticResource NavigationButtonStyle}"/>
+                <Button Content="Sign In" 
+                        Margin="0,5" 
+                        Click="NavigateToSignIn"
+                        Style="{StaticResource NavigationButtonStyle}"/>
+                <Button Content="Calendrier" 
+                        Margin="0,5" 
+                        Click="NavigateToCalendrier"
+                        Style="{StaticResource NavigationButtonStyle}"/>
+                <Button Content="Inventory" 
+        Margin="0,5" 
+        Click="NavigateToInventory"
+        Style="{StaticResource NavigationButtonStyle}"/>
+            </StackPanel>
+        </Border>
+        
+        <Frame x:Name="MainFrame" 
+               Grid.Row="1" 
+               NavigationUIVisibility="Hidden" 
+               Grid.ColumnSpan="2" 
+               Navigated="MainFrame_Navigated"/>
         
     </Grid>
 </Window>

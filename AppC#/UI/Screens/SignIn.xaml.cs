@@ -1,10 +1,10 @@
 using System.Windows.Controls;
 
-namespace UI
+namespace UI.Screens
 {
-    public partial class Screen4 : Page
+    public partial class SignIn : Page
     {
-        public Screen4()
+        public SignIn()
         {
             InitializeComponent();
         }

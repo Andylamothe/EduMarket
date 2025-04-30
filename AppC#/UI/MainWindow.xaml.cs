@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using UI.Screens;
 
 namespace UI
 {
@@ -16,27 +17,54 @@ namespace UI
         public MainWindow()
         {
             InitializeComponent();
-            NavigateToScreen1(null, null);
+            MainFrame.Navigate(new Catalogue());
         }
 
-        private void NavigateToScreen1(object sender, RoutedEventArgs e)
+        private void ToggleNavigationMenu(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Screen1());
+            if (navMenu.Visibility == Visibility.Visible)
+            {
+                navMenu.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                navMenu.Visibility = Visibility.Visible;
+            }
         }
 
-        private void NavigateToScreen2(object sender, RoutedEventArgs e)
+        private void NavigateToCatalogue(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Screen2());
+            MainFrame.Navigate(new Catalogue());
+            navMenu.Visibility = Visibility.Collapsed;
         }
 
-        private void NavigateToScreen3(object sender, RoutedEventArgs e)
+        private void NavigateToSignIn(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Screen3());
+            MainFrame.Navigate(new SignIn());
+            navMenu.Visibility = Visibility.Collapsed;
         }
 
-        private void NavigateToScreen4(object sender, RoutedEventArgs e)
+        private void NavigateToInventory(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Screen4());
+            MainFrame.Navigate(new Inventory());
+            navMenu.Visibility = Visibility.Collapsed;
+        }
+
+        private void NavigateToCalendrier(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Calendrier());
+            navMenu.Visibility = Visibility.Collapsed;
+        }
+
+        private void NavigateToItem(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Item());
+            navMenu.Visibility = Visibility.Collapsed;
+        }
+
+        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+
         }
     }
 }

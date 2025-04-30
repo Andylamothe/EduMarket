@@ -1,10 +1,10 @@
 using System.Windows.Controls;
 
-namespace UI
+namespace UI.Screens
 {
-    public partial class Screen1 : Page
+    public partial class Calendrier : Page
     {
-        public Screen1()
+        public Calendrier()
         {
             InitializeComponent();
         }

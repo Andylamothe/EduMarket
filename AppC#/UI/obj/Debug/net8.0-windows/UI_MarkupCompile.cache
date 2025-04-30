@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\6240201\Source\Repos\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\
+C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\
 UI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\6240201\Source\Repos\AppCsharp\AppC#\UI\App.xaml
-5937420931
+C:\Users\lepro\Desktop\appCsharp\AppC#\UI\App.xaml
+6-1275384517
 
-8943402642
-198-1431420039
-MainWindow.xaml;Screen1.xaml;Screen2.xaml;Screen3.xaml;Screen4.xaml;
+9-332144349
+198-211836927
+MainWindow.xaml;Screens\Calendrier.xaml;Screens\Catalogue.xaml;Screens\Inventory.xaml;Screens\Item.xaml;Screens\SignIn.xaml;
 
 False
 

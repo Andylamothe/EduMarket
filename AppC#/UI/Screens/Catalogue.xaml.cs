@@ -1,10 +1,10 @@
 using System.Windows.Controls;
 
-namespace UI
+namespace UI.Screens
 {
-    public partial class Screen3 : Page
+    public partial class Catalogue : Page
     {
-        public Screen3()
+        public Catalogue()
         {
             InitializeComponent();
         }

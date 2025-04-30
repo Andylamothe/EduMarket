@@ -9,17 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="calendar_month_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
-    <None Remove="home_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
-    <None Remove="inventory_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
-    <None Remove="logout_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Assets\box-solid-24.png" />
+    <None Remove="Assets\calendar-solid-24.png" />
+    <None Remove="Assets\home-solid-24.png" />
+    <None Remove="Assets\log-in-regular-24.png" />
+    <None Remove="Assets\menu-regular-24.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="calendar_month_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
-    <Resource Include="home_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
-    <Resource Include="inventory_2_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
-    <Resource Include="logout_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Assets\box-solid-24.png" />
+    <Resource Include="Assets\calendar-solid-24.png" />
+    <Resource Include="Assets\home-solid-24.png" />
+    <Resource Include="Assets\log-in-regular-24.png" />
+    <Resource Include="Assets\menu-regular-24.png" />
   </ItemGroup>
 
 </Project>

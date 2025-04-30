@@ -1395,23 +1395,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lepro\\.nuget\\packages\\": {},
+    "C:\\Users\\Andy\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\Model.csproj",
-      "packagesPath": "C:\\Users\\lepro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\obj\\",
+      "projectPath": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\Model\\Model.csproj",
+      "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lepro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1469,7 +1469,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

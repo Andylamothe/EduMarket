@@ -87,3 +87,34 @@ C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Inven
 C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Item.baml
 C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\SignIn.baml
 C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Calendrier.baml
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.dll
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\refint\UI.dll
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.pdb
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\bin\Debug\net8.0-windows\UI.exe
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\bin\Debug\net8.0-windows\UI.deps.json
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\bin\Debug\net8.0-windows\UI.runtimeconfig.json
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\bin\Debug\net8.0-windows\UI.dll
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\bin\Debug\net8.0-windows\UI.pdb
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Calendrier.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Catalogue.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Inventory.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Item.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\SignIn.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI_MarkupCompile.cache
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI_MarkupCompile.lref
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Calendrier.baml
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Catalogue.baml
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Inventory.baml
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Item.baml
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\SignIn.baml
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.g.resources
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.AssemblyInfo.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.sourcelink.json
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.genruntimeconfig.cache
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\ref\UI.dll

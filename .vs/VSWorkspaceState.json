@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AppC#",
+    "\\AppC#\\UI",
+    "\\AppC#\\UI\\Screens"
   ],
-  "SelectedNode": "\\C:\\Users\\6240201\\Source\\Repos\\AppCsharp",
+  "SelectedNode": "\\AppC#\\UI\\Screens\\Inventory.xaml",
   "PreviewInSolutionExplorer": false
 }

@@ -48,44 +48,80 @@
         <Button x:Name="btnMenu" 
                 Width="40" 
                 Height="40" 
+                Cursor="Hand"
                 Margin="10,10,0,10" 
                 HorizontalAlignment="Left" 
                 VerticalAlignment="Top"
                 Panel.ZIndex="1"
                 Click="ToggleNavigationMenu">
             <Button.Background>
-                <ImageBrush ImageSource="/Assets/menu-regular-24.png"/>
+                <ImageBrush ImageSource="/menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png"/>
             </Button.Background>
         </Button>
 
         <!-- La sidebar -->
         <Border x:Name="navMenu" 
-                Grid.Row="1" 
-                Width="200" 
-                Background="#FF1D2D44" 
-                Visibility="Collapsed"
-                Panel.ZIndex="2"
-                HorizontalAlignment="Left">
+        Grid.Row="1" 
+        Width="200" 
+        Background="#FF1D2D44" 
+        Visibility="Collapsed"
+        Panel.ZIndex="2"
+        HorizontalAlignment="Left">
             <StackPanel Margin="10">
-                <Button Content="Catalogue" 
-                        Margin="0,5" 
-                        Click="NavigateToCatalogue"
-                        Style="{StaticResource NavigationButtonStyle}"/>
-                <Button Content="Sign In" 
-                        Margin="0,5" 
-                        Click="NavigateToSignIn"
-                        Style="{StaticResource NavigationButtonStyle}"/>
-                <Button Content="Calendrier" 
-                        Margin="0,5" 
-                        Click="NavigateToCalendrier"
-                        Style="{StaticResource NavigationButtonStyle}"/>
-                <Button Content="Inventory" 
-        Margin="0,5" 
-        Click="NavigateToInventory"
-        Style="{StaticResource NavigationButtonStyle}"/>
+                <!-- Bouton Catalogue -->
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Button 
+                    Cursor="Hand"
+                    Click="NavigateToCatalogue"
+                    Style="{StaticResource NavigationButtonStyle}" Width="54" Height="54">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
+                        </Button.Background>
+                    </Button>
+                    <TextBlock Text="Catalogue" VerticalAlignment="Center" Foreground="#F4C095" Margin="5,0,0,0" FontSize="20" />
+                </StackPanel>
+
+                <!-- Bouton Connexion -->
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Button
+                    Cursor="Hand"                        
+                    Click="NavigateToSignIn"
+                    Style="{StaticResource NavigationButtonStyle}" Width="54" Height="54">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
+                        </Button.Background>
+                    </Button>
+                    <TextBlock Text="Connexion" VerticalAlignment="Center" Foreground="#F4C095" Margin="5,0,0,0" FontSize="20"/>
+                </StackPanel>
+
+                <!-- Bouton Calendrier -->
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Button 
+                        Cursor="Hand"
+                    Click="NavigateToCalendrier"
+                    Style="{StaticResource NavigationButtonStyle}" Width="54" Height="54">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/calendar_month_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
+                        </Button.Background>
+                    </Button>
+                    <TextBlock Text="Calendrier" VerticalAlignment="Center" Foreground="#F4C095" Margin="5,0,0,0" FontSize="20"/>
+                </StackPanel>
+
+                <!-- Bouton Inventaire -->
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Button 
+                    Cursor="Hand"
+                    Click="NavigateToInventory"
+                    Style="{StaticResource NavigationButtonStyle}" Width="54" Height="54">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
+                        </Button.Background>
+                    </Button>
+                    <TextBlock Text="Inventaire" VerticalAlignment="Center" Foreground="#F4C095" Margin="5,0,0,0" FontSize="20"/>
+                </StackPanel>
             </StackPanel>
         </Border>
-        
+
         <Frame x:Name="MainFrame" 
                Grid.Row="1" 
                NavigationUIVisibility="Hidden" 

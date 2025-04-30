@@ -3,12 +3,37 @@
   "WorkspaceRootPath": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\andy\\onedrive\\documents\\hiver 2025 - workspace\\projet csharp\\appcsharp\\appc#\\ui\\screens\\inventory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\inventory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\andy\\onedrive\\documents\\hiver 2025 - workspace\\projet csharp\\appcsharp\\appc#\\ui\\screens\\item.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\item.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+=======
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\item.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\item.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\assets\\box-solid-24.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\assets\\box-solid-24.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\calendrier.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\calendrier.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+>>>>>>> 8f7a1f51e6f1f3cf21321aa5679f19cc176af773
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\andy\\onedrive\\documents\\hiver 2025 - workspace\\projet csharp\\appcsharp\\appc#\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -23,8 +48,29 @@
       "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\andy\\onedrive\\documents\\hiver 2025 - workspace\\projet csharp\\appcsharp\\appc#\\ui\\screens\\signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+=======
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\catalogue.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\catalogue.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\inventory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\inventory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 8f7a1f51e6f1f3cf21321aa5679f19cc176af773
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\andy\\onedrive\\documents\\hiver 2025 - workspace\\projet csharp\\appcsharp\\appc#\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -62,7 +108,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 3,
+=======
+          "SelectedChildIndex": 5,
+>>>>>>> 8f7a1f51e6f1f3cf21321aa5679f19cc176af773
           "Children": [
             {
               "$type": "Document",
@@ -87,6 +137,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "Inventory.xaml",
               "DocumentMoniker": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\UI\\Screens\\Inventory.xaml",
@@ -95,10 +146,22 @@
               "RelativeToolTip": "UI\\Screens\\Inventory.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-29T22:31:01.762Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "box-solid-24.svg",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Assets\\box-solid-24.svg",
+              "RelativeDocumentMoniker": "UI\\Assets\\box-solid-24.svg",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Assets\\box-solid-24.svg",
+              "RelativeToolTip": "UI\\Assets\\box-solid-24.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-04-29T23:27:27.586Z",
+>>>>>>> 8f7a1f51e6f1f3cf21321aa5679f19cc176af773
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 10,
               "Title": "box-solid-24.svg",
               "DocumentMoniker": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\UI\\Assets\\box-solid-24.svg",
@@ -123,6 +186,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 0,
+>>>>>>> 8f7a1f51e6f1f3cf21321aa5679f19cc176af773
               "Title": "Item.xaml",
               "DocumentMoniker": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\UI\\Screens\\Item.xaml",
               "RelativeDocumentMoniker": "UI\\Screens\\Item.xaml",
@@ -134,6 +200,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
               "Title": "Calendrier.xaml",
               "DocumentMoniker": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\UI\\Screens\\Calendrier.xaml",
@@ -142,11 +209,25 @@
               "RelativeToolTip": "UI\\Screens\\Calendrier.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-29T22:30:55.634Z",
+=======
+              "DocumentIndex": 9,
+              "Title": "Inventory.xaml",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Inventory.xaml",
+              "RelativeDocumentMoniker": "UI\\Screens\\Inventory.xaml",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Inventory.xaml",
+              "RelativeToolTip": "UI\\Screens\\Inventory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-29T22:31:01.762Z",
+>>>>>>> 8f7a1f51e6f1f3cf21321aa5679f19cc176af773
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 8,
+>>>>>>> 8f7a1f51e6f1f3cf21321aa5679f19cc176af773
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\UI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
@@ -158,6 +239,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\UI\\MainWindow.xaml.cs",
@@ -167,11 +249,76 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T21:32:24.299Z",
+=======
+              "DocumentIndex": 7,
+              "Title": "Catalogue.xaml",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Catalogue.xaml",
+              "RelativeDocumentMoniker": "UI\\Screens\\Catalogue.xaml",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Catalogue.xaml",
+              "RelativeToolTip": "UI\\Screens\\Catalogue.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-29T22:31:00.752Z",
+>>>>>>> 8f7a1f51e6f1f3cf21321aa5679f19cc176af773
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 5,
+=======
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "UI\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\AssemblyInfo.cs",
+              "RelativeToolTip": "UI\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T23:23:34.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Calendrier.xaml",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Calendrier.xaml",
+              "RelativeDocumentMoniker": "UI\\Screens\\Calendrier.xaml",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Calendrier.xaml",
+              "RelativeToolTip": "UI\\Screens\\Calendrier.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-29T22:30:55.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UI.csproj",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "UI\\UI.csproj",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\UI.csproj",
+              "RelativeToolTip": "UI\\UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-29T21:29:55.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:32:24.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+>>>>>>> 8f7a1f51e6f1f3cf21321aa5679f19cc176af773
               "Title": "SignIn.xaml",
               "DocumentMoniker": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\UI\\Screens\\SignIn.xaml",
               "RelativeDocumentMoniker": "UI\\Screens\\SignIn.xaml",
@@ -183,6 +330,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "UI.csproj",
               "DocumentMoniker": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\UI\\UI.csproj",
@@ -209,6 +357,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 10,
+>>>>>>> 8f7a1f51e6f1f3cf21321aa5679f19cc176af773
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Andy\\OneDrive\\Documents\\HIVER 2025 - Workspace\\Projet CSharp\\AppCsharp\\AppC#\\UI\\App.xaml",
               "RelativeDocumentMoniker": "UI\\App.xaml",

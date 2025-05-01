@@ -55,7 +55,7 @@
                 Panel.ZIndex="1"
                 Click="ToggleNavigationMenu">
             <Button.Background>
-                <ImageBrush ImageSource="/menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png"/>
+                <ImageBrush ImageSource="/Assets/menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png"/>
             </Button.Background>
         </Button>
 
@@ -75,7 +75,7 @@
                     Click="NavigateToCatalogue"
                     Style="{StaticResource NavigationButtonStyle}" Width="54" Height="54">
                         <Button.Background>
-                            <ImageBrush ImageSource="/home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
+                            <ImageBrush ImageSource="/Assets/home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
                         </Button.Background>
                     </Button>
                     <TextBlock Text="Catalogue" VerticalAlignment="Center" Foreground="#F4C095" Margin="5,0,0,0" FontSize="20" />
@@ -88,7 +88,7 @@
                     Click="NavigateToSignIn"
                     Style="{StaticResource NavigationButtonStyle}" Width="54" Height="54">
                         <Button.Background>
-                            <ImageBrush ImageSource="/login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
+                            <ImageBrush ImageSource="/Assets/login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
                         </Button.Background>
                     </Button>
                     <TextBlock Text="Connexion" VerticalAlignment="Center" Foreground="#F4C095" Margin="5,0,0,0" FontSize="20"/>
@@ -101,7 +101,7 @@
                     Click="NavigateToCalendrier"
                     Style="{StaticResource NavigationButtonStyle}" Width="54" Height="54">
                         <Button.Background>
-                            <ImageBrush ImageSource="/calendar_month_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
+                            <ImageBrush ImageSource="/Assets/calendar_month_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
                         </Button.Background>
                     </Button>
                     <TextBlock Text="Calendrier" VerticalAlignment="Center" Foreground="#F4C095" Margin="5,0,0,0" FontSize="20"/>
@@ -114,7 +114,7 @@
                     Click="NavigateToInventory"
                     Style="{StaticResource NavigationButtonStyle}" Width="54" Height="54">
                         <Button.Background>
-                            <ImageBrush ImageSource="/inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
+                            <ImageBrush ImageSource="/Assets/inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" Stretch="none"/>
                         </Button.Background>
                     </Button>
                     <TextBlock Text="Inventaire" VerticalAlignment="Center" Foreground="#F4C095" Margin="5,0,0,0" FontSize="20"/>

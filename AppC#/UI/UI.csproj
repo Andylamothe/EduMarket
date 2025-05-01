@@ -9,37 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\box-solid-24.png" />
-    <None Remove="Assets\calendar-solid-24.png" />
-    <None Remove="Assets\home-solid-24.png" />
-    <None Remove="Assets\log-in-regular-24.png" />
-    <None Remove="Assets\menu-regular-24.png" />
-    <None Remove="box-solid-24.png" />
-    <None Remove="calendar-solid-24.png" />
-    <None Remove="calendar_month_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
-    <None Remove="home-solid-24.png" />
-    <None Remove="home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
-    <None Remove="inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
-    <None Remove="log-in-regular-24.png" />
-    <None Remove="login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
-    <None Remove="menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Assets\calendar_month_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Assets\home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Assets\inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Assets\login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Assets\menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Assets\box-solid-24.png" />
-    <Resource Include="Assets\calendar-solid-24.png" />
-    <Resource Include="Assets\home-solid-24.png" />
-    <Resource Include="Assets\log-in-regular-24.png" />
-    <Resource Include="Assets\menu-regular-24.png" />
-    <Resource Include="box-solid-24.png" />
-    <Resource Include="calendar-solid-24.png" />
-    <Resource Include="calendar_month_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
-    <Resource Include="home-solid-24.png" />
-    <Resource Include="home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
-    <Resource Include="inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
-    <Resource Include="log-in-regular-24.png" />
-    <Resource Include="login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
-    <Resource Include="menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Assets\calendar_month_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Assets\home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Assets\inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Assets\login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Assets\menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
   </ItemGroup>
 
 </Project>

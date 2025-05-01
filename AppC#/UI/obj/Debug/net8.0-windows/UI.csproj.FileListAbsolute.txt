@@ -118,3 +118,5 @@ C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.sourcelink.json
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\UI.genruntimeconfig.cache
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\Projet CSharp\AppCsharp\AppC#\UI\obj\Debug\net8.0-windows\ref\UI.dll
+C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\SignUp.g.cs
+C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\SignUp.baml

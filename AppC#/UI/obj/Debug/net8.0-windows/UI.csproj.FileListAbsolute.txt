@@ -87,3 +87,5 @@ C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Inven
 C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Item.baml
 C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\SignIn.baml
 C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\Calendrier.baml
+C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\SignUp.g.cs
+C:\Users\lepro\Desktop\appCsharp\AppC#\UI\obj\Debug\net8.0-windows\Screens\SignUp.baml

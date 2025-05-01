@@ -62,6 +62,12 @@ namespace UI
             navMenu.Visibility = Visibility.Collapsed;
         }
 
+        private void NavigateToSignUp(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new SignUp());
+            navMenu.Visibility = Visibility.Collapsed;
+        }
+
         private void MainFrame_Navigated(object sender, NavigationEventArgs e)
         {
 

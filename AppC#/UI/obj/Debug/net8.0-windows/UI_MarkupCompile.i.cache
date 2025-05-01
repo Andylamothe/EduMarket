@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\lepro\Desktop\appCsharp\AppC#\UI\App.xaml
-6-1275384517
+7-478592885
 
-111392048635
+12-131354782
 198-211836927
-MainWindow.xaml;Screens\Calendrier.xaml;Screens\Catalogue.xaml;Screens\Inventory.xaml;Screens\Item.xaml;Screens\SignIn.xaml;
+MainWindow.xaml;Screens\Calendrier.xaml;Screens\Catalogue.xaml;Screens\Inventory.xaml;Screens\Item.xaml;Screens\SignIn.xaml;Screens\SignUp.xaml;
 
-True
+False
 

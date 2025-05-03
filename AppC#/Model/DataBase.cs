@@ -23,8 +23,6 @@ namespace Model.DataBase
 
         public DbSet<Permission> Permissions { get; set; }
 
-        public DbSet<GroupePermission> PermissionsPermission { get; set; }
-
         /*
          * On appelle le constructeur de la classe parente
          * 

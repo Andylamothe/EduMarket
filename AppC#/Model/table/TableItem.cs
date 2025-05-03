@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Model.table
 {
@@ -18,5 +19,10 @@ namespace Model.table
 
         [Required]
         public required string Description { get; set; }
+
+        public int UserId { get; set; }
+
+        [ForeignKey(nameof(UserId))]
+        public virtual required UserModel Customer { get; set; }
     }
 }

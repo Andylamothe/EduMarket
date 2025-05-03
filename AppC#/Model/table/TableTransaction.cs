@@ -10,10 +10,7 @@ namespace Model.table
     {
         [Key]
         public int TransactionId { get; set; }
-        public int SenderId { get; set; }
-
-        [ForeignKey(nameof(SenderId))]
-        public virtual required UserModel Sender { get; set; }
+        
         public int ReceiverId { get; set; }
 
         [ForeignKey(nameof(ReceiverId))]

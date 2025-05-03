@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\table\\tablepermision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tablepermision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\table\\tablecatalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tablecatalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\table\\tableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\table\\tabletransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tabletransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\table\\tablepermision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tablepermision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\model.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\model.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\marco\\bureau\\10-github\\appcsharp\\appc#\\model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +46,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "TableCatalogue.cs",
+              "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TableCatalogue.cs",
+              "RelativeDocumentMoniker": "Model\\table\\TableCatalogue.cs",
+              "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TableCatalogue.cs",
+              "RelativeToolTip": "Model\\table\\TableCatalogue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T20:11:26.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TableTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TableTransaction.cs",
+              "RelativeDocumentMoniker": "Model\\table\\TableTransaction.cs",
+              "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TableTransaction.cs",
+              "RelativeToolTip": "Model\\table\\TableTransaction.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T20:04:21.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model",
+              "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\Model.csproj",
+              "RelativeDocumentMoniker": "Model\\Model.csproj",
+              "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\Model.csproj",
+              "RelativeToolTip": "Model\\Model.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-03T19:56:33.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TablePermision.cs",
               "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TablePermision.cs",
               "RelativeDocumentMoniker": "Model\\table\\TablePermision.cs",
@@ -51,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\TestIfWork\\Program.cs",
               "RelativeDocumentMoniker": "TestIfWork\\Program.cs",
@@ -63,20 +113,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TableItem.cs",
               "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TableItem.cs",
               "RelativeDocumentMoniker": "Model\\table\\TableItem.cs",
               "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TableItem.cs",
               "RelativeToolTip": "Model\\table\\TableItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T21:12:24.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\repository\\Repository.cs",
               "RelativeDocumentMoniker": "Model\\repository\\Repository.cs",
@@ -94,22 +144,23 @@
               "RelativeDocumentMoniker": "Model\\DataBase.cs",
               "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\DataBase.cs",
               "RelativeToolTip": "Model\\DataBase.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAmwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T20:42:38.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TableUtilisateur.cs",
               "DocumentMoniker": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TableUtilisateur.cs",
               "RelativeDocumentMoniker": "Model\\table\\TableUtilisateur.cs",
               "ToolTip": "C:\\Users\\Marco\\Bureau\\10-github\\AppCsharp\\AppC#\\Model\\table\\TableUtilisateur.cs",
               "RelativeToolTip": "Model\\table\\TableUtilisateur.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T20:42:32.945Z"
+              "WhenOpened": "2025-04-19T20:42:32.945Z",
+              "EditorCaption": ""
             }
           ]
         }

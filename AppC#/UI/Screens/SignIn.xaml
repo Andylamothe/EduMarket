@@ -15,8 +15,9 @@
                     HorizontalAlignment="Center">
             
             <TextBlock Text="Sign In" 
-                       FontSize="24" 
-                       Foreground="White"
+                       FontSize="50" 
+                       FontWeight="Bold"
+                       Foreground="#F4C095"
                        Margin="0,0,0,30"
                        HorizontalAlignment="Center"/>
 
@@ -55,7 +56,9 @@
                     Width="200"
                     Margin="0,30,0,0"
                     Background="#FF3498DB"
-                    Foreground="White"
+                    FontSize="15"
+                    FontWeight="Bold"
+                    Foreground="#F4C095"
                     HorizontalAlignment="Center"
                     Cursor="Hand"/>
 
@@ -66,7 +69,9 @@
                     Width="200"
                     Margin="0,30,0,0"
                     Background="#FF3498DB"
-                    Foreground="White"
+                    FontSize="15"
+                    FontWeight="Bold"
+                    Foreground="#F4C095"
                     HorizontalAlignment="Center"
                     Cursor="Hand"
                     Click="NavigateToSignUp"/>

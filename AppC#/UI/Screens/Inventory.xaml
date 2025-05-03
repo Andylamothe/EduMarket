@@ -12,9 +12,10 @@
     <Grid Background="#FF2C3E50">
         <!-- Titre centré -->
         <TextBlock Text="Inventory" 
-                 FontSize="50" 
+                 FontSize="50"
+                 FontWeight="Bold" 
                  Foreground="#F4C095"
-                 Margin="0,0,0,0"
+                 Margin="0,10,0,0"
                  HorizontalAlignment="Center"/>
 
         <!-- Conteneur principal avec bordure -->
@@ -30,7 +31,6 @@
                 <TextBlock Grid.Row="0"
                          Text="Liste des Items"
                          FontSize="34"
-                         FontWeight="Bold"
                          Foreground="#F4C095"
                          HorizontalAlignment="Center"
                          Margin="0,0,0,20"/>

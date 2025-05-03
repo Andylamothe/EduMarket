@@ -17,7 +17,8 @@
 
         <TextBlock Grid.Row="0" 
                    Text="Calendrier" 
-                   FontSize="24" 
+                   Foreground="#F4C095"
+                   FontSize="50" 
                    FontWeight="Bold"
                    Margin="20,20,20,10"
                    HorizontalAlignment="Center"/>

@@ -15,7 +15,7 @@ namespace Model.table
     public abstract class UserModel
     {
         [Key]
-        public int IdUser { get; set; }
+        public int UserId { get; set; }
         [Required]
         public required string FirstName { get; set; }
 
@@ -48,7 +48,7 @@ namespace Model.table
         public override string ToString()
         {
             return "UserModel{" +
-                "IdUser: " + this.IdUser +
+                "IdUser: " + this.UserId +
                 ", FirstName: " + this.FirstName +
                 ", LastName: " + this.LastName +
                 ", Email: " + this.Email +

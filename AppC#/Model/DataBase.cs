@@ -55,8 +55,6 @@ namespace Model.DataBase
 
             modelBuilder.Entity<Permission>().ToTable("Permission");
 
-            modelBuilder.Entity<GroupePermission>().ToTable("GroupePermission");
-
             modelBuilder.Entity<Item>().ToTable("Item");
 
             modelBuilder.Entity<Transaction>().ToTable("Transaction");

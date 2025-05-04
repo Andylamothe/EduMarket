@@ -24,10 +24,7 @@
                    HorizontalAlignment="Center"/>
 
         <Grid Grid.Row="1" Margin="20">
-            <TextBlock Text="Mes rdv" 
-                       HorizontalAlignment="Center" 
-                       VerticalAlignment="Center"
-                       FontSize="18"/>
+            <Calendar Width="800"/>
         </Grid>
     </Grid>
 </Page> 

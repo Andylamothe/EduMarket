@@ -14,6 +14,7 @@
     <None Remove="Assets\inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
     <None Remove="Assets\login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
     <None Remove="Assets\menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Remove="Assets\image-alt-regular-24.png" /> 
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,7 @@
     <Resource Include="Assets\inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
     <Resource Include="Assets\login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
     <Resource Include="Assets\menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Assets\image-alt-regular-24.png" />
   </ItemGroup>
 
 </Project>

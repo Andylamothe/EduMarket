@@ -20,7 +20,7 @@
 
         <!-- Conteneur principal avec bordure -->
         <Border VerticalAlignment="Center" HorizontalAlignment="Center" 
-              BorderBrush="#F4C095" BorderThickness="3" CornerRadius="10" Padding="10">
+                BorderBrush="#F4C095" BorderThickness="3" CornerRadius="10" Padding="10">
             <Grid Background="#FF34495E" Width="800" Height="500">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>

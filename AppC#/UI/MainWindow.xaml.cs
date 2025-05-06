@@ -32,45 +32,40 @@ namespace UI
             }
         }
 
-        private void NavigateToCatalogue(object sender, RoutedEventArgs e)
+        public void NavigateToCatalogue(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new Catalogue());
             navMenu.Visibility = Visibility.Collapsed;
         }
 
-        private void NavigateToSignIn(object sender, RoutedEventArgs e)
+        public void NavigateToSignIn(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new SignIn());
             navMenu.Visibility = Visibility.Collapsed;
         }
 
-        private void NavigateToInventory(object sender, RoutedEventArgs e)
+        public void NavigateToInventory(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new Inventory());
             navMenu.Visibility = Visibility.Collapsed;
         }
 
-        private void NavigateToCalendrier(object sender, RoutedEventArgs e)
+        public void NavigateToCalendrier(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new Calendrier());
             navMenu.Visibility = Visibility.Collapsed;
         }
 
-        private void NavigateToItem(object sender, RoutedEventArgs e)
+        public void NavigateToItem(object sender, RoutedEventArgs e, Item item)
         {
             MainFrame.Navigate(new Item());
             navMenu.Visibility = Visibility.Collapsed;
         }
 
-        private void NavigateToSignUp(object sender, RoutedEventArgs e)
+        public void NavigateToSignUp(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new SignUp());
             navMenu.Visibility = Visibility.Collapsed;
-        }
-
-        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
-        {
-
         }
     }
 }

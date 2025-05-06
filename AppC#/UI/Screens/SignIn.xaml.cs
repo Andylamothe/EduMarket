@@ -12,10 +12,10 @@ namespace UI.Screens
 
         private void NavigateToSignUp(object sender, RoutedEventArgs e)
         {
-            var mainWindow = Window.GetWindow(this) as MainWindow;
+            var mainWindow = Application.Current.MainWindow as MainWindow;
             if (mainWindow != null)
             {
-                mainWindow.MainFrame.Navigate(new SignUp());
+                mainWindow.NavigateToSignUp(sender, e);
                 mainWindow.navMenu.Visibility = Visibility.Collapsed;
             }
         }

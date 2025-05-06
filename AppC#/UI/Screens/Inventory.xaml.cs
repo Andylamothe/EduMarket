@@ -4,27 +4,25 @@ using System.Windows.Controls;
 
 namespace UI.Screens
 {
-
-
     public partial class Item
     {
         public int ItemId { get; set; }
-
         public string ItemName { get; set; }
         public float Price { get; set; }
         public String Description { get; set; }
     }
+
     public partial class Inventory : Page
     {
-
         private ObservableCollection<Item> inventoryItems;
+
         public Inventory()
         {
             DataContext = this;
             inventoryItems = new ObservableCollection<Item>()
             {
-                new Item{ItemId = 1, ItemName = "Coca can", Price = 2.50F, Description = "A can of Coca"},
-                new Item{ItemId = 2, ItemName = "Velo", Price = 230F, Description = "Un velo den bon etat"},
+                new Item { ItemId = 1, ItemName = "Coca can", Price = 2.50F, Description = "A can of Coca" },
+                new Item { ItemId = 2, ItemName = "Velo", Price = 230F, Description = "Un velo den bon etat" }
             };
 
             InitializeComponent();

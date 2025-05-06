@@ -125,8 +125,6 @@
         <Frame x:Name="MainFrame" 
                Grid.Row="1" 
                NavigationUIVisibility="Hidden" 
-               Grid.ColumnSpan="2" 
-               Navigated="MainFrame_Navigated"/>
-        
+               Grid.ColumnSpan="2"/>
     </Grid>
 </Window>

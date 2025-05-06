@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\inventory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\inventory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\catalogue.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\catalogue.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\calendrier.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\calendrier.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\inventory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\inventory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\table\\tableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\table\\tablecatalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tablecatalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\table\\tablepermision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tablepermision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\table\\tabletransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tabletransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -15,56 +51,16 @@
       "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\table\\tablepermision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tablepermision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\table\\tablecatalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tablecatalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\inventory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\inventory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44332FDA-63E3-4D79-A813-9D8C2BD2C1DC}|TestIfWork\\TestIfWork.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\testifwork\\testifwork.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{44332FDA-63E3-4D79-A813-9D8C2BD2C1DC}|TestIfWork\\TestIfWork.csproj|solutionrelative:testifwork\\testifwork.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA133D5B-E31F-41E9-BF51-C86BEC311922}|Service\\Service.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FA133D5B-E31F-41E9-BF51-C86BEC311922}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tableutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\table\\tabletransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tabletransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\model\\table\\tableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{035AEC47-94E1-4D75-8903-3FB9F5DC0457}|Model\\Model.csproj|solutionrelative:model\\table\\tableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\calendrier.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\screens\\calendrier.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\item.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -77,38 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\menu_24dp_f4c095_fill0_wght400_grad0_opsz24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\menu_24dp_f4c095_fill0_wght400_grad0_opsz24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\log-in-regular-24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\log-in-regular-24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\login_24dp_f4c095_fill0_wght400_grad0_opsz24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\login_24dp_f4c095_fill0_wght400_grad0_opsz24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\inventory_2_24dp_f4c095_fill0_wght400_grad0_opsz24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\inventory_2_24dp_f4c095_fill0_wght400_grad0_opsz24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\home-solid-24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\home-solid-24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\home_24dp_f4c095_fill0_wght400_grad0_opsz24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\home_24dp_f4c095_fill0_wght400_grad0_opsz24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\calendar-solid-24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\calendar-solid-24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\box-solid-24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|solutionrelative:ui\\box-solid-24.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10BF36C-99F4-4E3A-8AE0-0DF599787F65}|UI\\UI.csproj|c:\\users\\lepro\\desktop\\appcsharp\\appc#\\ui\\screens\\signin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\repository\\Repository.cs",
               "RelativeDocumentMoniker": "Model\\repository\\Repository.cs",
@@ -148,6 +112,59 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T12:29:33.805Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TableTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableTransaction.cs",
+              "RelativeDocumentMoniker": "Model\\table\\TableTransaction.cs",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableTransaction.cs",
+              "RelativeToolTip": "Model\\table\\TableTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T00:00:55.902Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TablePermision.cs",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TablePermision.cs",
+              "RelativeDocumentMoniker": "Model\\table\\TablePermision.cs",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TablePermision.cs",
+              "RelativeToolTip": "Model\\table\\TablePermision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:00:54.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inventory.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Inventory.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\Screens\\Inventory.xaml.cs",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Inventory.xaml.cs*",
+              "RelativeToolTip": "UI\\Screens\\Inventory.xaml.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:36:06.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TableItem.cs",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableItem.cs",
+              "RelativeDocumentMoniker": "Model\\table\\TableItem.cs",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableItem.cs",
+              "RelativeToolTip": "Model\\table\\TableItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T00:00:28.042Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -167,103 +184,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TablePermision.cs",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TablePermision.cs",
-              "RelativeDocumentMoniker": "Model\\table\\TablePermision.cs",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TablePermision.cs",
-              "RelativeToolTip": "Model\\table\\TablePermision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T23:59:28.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Model.csproj",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\Model.csproj",
-              "RelativeDocumentMoniker": "Model\\Model.csproj",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\Model.csproj",
-              "RelativeToolTip": "Model\\Model.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-03T23:59:17.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Service.csproj",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Service\\Service.csproj",
-              "RelativeDocumentMoniker": "Service\\Service.csproj",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Service\\Service.csproj",
-              "RelativeToolTip": "Service\\Service.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-03T23:59:15.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UI.csproj",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\UI.csproj",
-              "RelativeDocumentMoniker": "UI\\UI.csproj",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\UI.csproj",
-              "RelativeToolTip": "UI\\UI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-29T21:29:55.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Catalogue.xaml",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Catalogue.xaml",
               "RelativeDocumentMoniker": "UI\\Screens\\Catalogue.xaml",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Catalogue.xaml*",
-              "RelativeToolTip": "UI\\Screens\\Catalogue.xaml*",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Catalogue.xaml",
+              "RelativeToolTip": "UI\\Screens\\Catalogue.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-29T22:31:00.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Inventory.xaml",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Inventory.xaml",
               "RelativeDocumentMoniker": "UI\\Screens\\Inventory.xaml",
               "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Inventory.xaml",
               "RelativeToolTip": "UI\\Screens\\Inventory.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-29T22:31:01.762Z"
+              "WhenOpened": "2025-04-29T22:31:01.762Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "UI\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\MainWindow.xaml.cs",
               "RelativeToolTip": "UI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T21:32:24.299Z"
+              "WhenOpened": "2025-04-29T21:32:24.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "TableUtilisateur.cs",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableUtilisateur.cs",
               "RelativeDocumentMoniker": "Model\\table\\TableUtilisateur.cs",
               "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableUtilisateur.cs",
               "RelativeToolTip": "Model\\table\\TableUtilisateur.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T00:01:17.577Z"
+              "WhenOpened": "2025-05-04T00:01:17.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "TestIfWork.csproj",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\TestIfWork\\TestIfWork.csproj",
               "RelativeDocumentMoniker": "TestIfWork\\TestIfWork.csproj",
@@ -271,94 +242,72 @@
               "RelativeToolTip": "TestIfWork\\TestIfWork.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-04T00:01:38.262Z"
+              "WhenOpened": "2025-05-04T00:01:38.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "SignIn.xaml",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\SignIn.xaml",
               "RelativeDocumentMoniker": "UI\\Screens\\SignIn.xaml",
               "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\SignIn.xaml",
               "RelativeToolTip": "UI\\Screens\\SignIn.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-29T22:31:26.866Z",
+              "WhenOpened": "2025-04-29T22:31:26.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UI.csproj",
+              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "UI\\UI.csproj",
+              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\UI.csproj",
+              "RelativeToolTip": "UI\\UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-29T21:29:55.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "SignUp.xaml",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\SignUp.xaml",
               "RelativeDocumentMoniker": "UI\\Screens\\SignUp.xaml",
               "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\SignUp.xaml",
               "RelativeToolTip": "UI\\Screens\\SignUp.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T23:15:24.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T23:15:24.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TableCatalogue.cs",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableCatalogue.cs",
               "RelativeDocumentMoniker": "Model\\table\\TableCatalogue.cs",
               "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableCatalogue.cs",
               "RelativeToolTip": "Model\\table\\TableCatalogue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T23:59:25.034Z"
+              "WhenOpened": "2025-05-03T23:59:25.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TableItem.cs",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableItem.cs",
-              "RelativeDocumentMoniker": "Model\\table\\TableItem.cs",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableItem.cs",
-              "RelativeToolTip": "Model\\table\\TableItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T00:00:28.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TableTransaction.cs",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableTransaction.cs",
-              "RelativeDocumentMoniker": "Model\\table\\TableTransaction.cs",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\Model\\table\\TableTransaction.cs",
-              "RelativeToolTip": "Model\\table\\TableTransaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T00:00:55.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
               "Title": "Calendrier.xaml",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Calendrier.xaml",
               "RelativeDocumentMoniker": "UI\\Screens\\Calendrier.xaml",
               "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Calendrier.xaml",
               "RelativeToolTip": "UI\\Screens\\Calendrier.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-29T22:30:55.634Z"
+              "WhenOpened": "2025-04-29T22:30:55.634Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png",
-              "RelativeDocumentMoniker": "UI\\home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "RelativeToolTip": "UI\\home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-05-01T00:09:46.314Z",
-              "EditorCaption": " - PNG [24x24, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Item.xaml",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\Item.xaml",
               "RelativeDocumentMoniker": "UI\\Screens\\Item.xaml",
@@ -369,91 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "box-solid-24.png - PNG [24x24, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\box-solid-24.png",
-              "RelativeDocumentMoniker": "UI\\box-solid-24.png",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\box-solid-24.png - PNG [24x24, 32 bit, PNG]",
-              "RelativeToolTip": "UI\\box-solid-24.png - PNG [24x24, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-05-01T00:09:47.419Z",
-              "EditorCaption": " - PNG [24x24, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "calendar-solid-24.png - PNG [24x24, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\calendar-solid-24.png",
-              "RelativeDocumentMoniker": "UI\\calendar-solid-24.png",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\calendar-solid-24.png - PNG [24x24, 32 bit, PNG]",
-              "RelativeToolTip": "UI\\calendar-solid-24.png - PNG [24x24, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-05-01T00:09:48.414Z",
-              "EditorCaption": " - PNG [24x24, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "home-solid-24.png - PNG [24x24, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\home-solid-24.png",
-              "RelativeDocumentMoniker": "UI\\home-solid-24.png",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\home-solid-24.png - PNG [24x24, 32 bit, PNG]",
-              "RelativeToolTip": "UI\\home-solid-24.png - PNG [24x24, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-05-01T00:09:50Z",
-              "EditorCaption": " - PNG [24x24, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "log-in-regular-24.png - PNG [24x24, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\log-in-regular-24.png",
-              "RelativeDocumentMoniker": "UI\\log-in-regular-24.png",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\log-in-regular-24.png - PNG [24x24, 32 bit, PNG]",
-              "RelativeToolTip": "UI\\log-in-regular-24.png - PNG [24x24, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-05-01T00:09:51.64Z",
-              "EditorCaption": " - PNG [24x24, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png",
-              "RelativeDocumentMoniker": "UI\\inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "RelativeToolTip": "UI\\inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-05-01T00:09:44.998Z",
-              "EditorCaption": " - PNG [24x24, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png",
-              "RelativeDocumentMoniker": "UI\\login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "RelativeToolTip": "UI\\login_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-05-01T00:09:44.24Z",
-              "EditorCaption": " - PNG [24x24, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png",
-              "RelativeDocumentMoniker": "UI\\menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png",
-              "ToolTip": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "RelativeToolTip": "UI\\menu_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png - PNG [24x24, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-05-01T00:09:41.129Z",
-              "EditorCaption": " - PNG [24x24, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 18,
               "Title": "SignIn.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\SignIn.xaml.cs",
               "RelativeDocumentMoniker": "UI\\Screens\\SignIn.xaml.cs",
@@ -465,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 19,
               "Title": "SignUp.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\Screens\\SignUp.xaml.cs",
               "RelativeDocumentMoniker": "UI\\Screens\\SignUp.xaml.cs",
@@ -477,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
@@ -488,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "UI\\AssemblyInfo.cs",
@@ -500,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 20,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\App.xaml",
               "RelativeDocumentMoniker": "UI\\App.xaml",
@@ -512,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 21,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lepro\\Desktop\\appCsharp\\AppC#\\UI\\App.xaml.cs",
               "RelativeDocumentMoniker": "UI\\App.xaml.cs",

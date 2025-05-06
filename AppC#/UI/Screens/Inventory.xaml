@@ -43,7 +43,7 @@
                         BorderThickness="0"
                         Foreground="#F4C095">
                     <ListView.Resources>
-                        
+
                         <!-- Style pour les en-têtes des colonnes -->
                         <Style TargetType="GridViewColumnHeader">
                             <Setter Property="Background" Value="#FF34495E"/>
@@ -55,12 +55,13 @@
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="ID" Width="50" DisplayMemberBinding="{Binding ItemId}"  />
-                            <GridViewColumn Header="Nom" Width="120" DisplayMemberBinding="{Binding Name}"/>
+                            <GridViewColumn Header="Nom" Width="120" DisplayMemberBinding="{Binding ItemName}"/>
                             <GridViewColumn Header="Prix" Width="80" DisplayMemberBinding="{Binding Price}"/>
                             <GridViewColumn Header="Description" Width="200" DisplayMemberBinding="{Binding Description}"/>
                         </GridView>
                     </ListView.View>
                 </ListView>
+                <Button Content="Delete" HorizontalAlignment="Left" Margin="740,60,0,0" Grid.RowSpan="2" VerticalAlignment="Top" RenderTransformOrigin="1.59,1.503" Click="ButtonDelete_Click"/>
             </Grid>
         </Border>
     </Grid>

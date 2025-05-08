@@ -16,10 +16,5 @@ namespace WpfApplication.page
             _viewModel = viewModel;
             DataContext = _viewModel;
         }
-
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

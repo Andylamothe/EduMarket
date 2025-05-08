@@ -26,24 +26,24 @@ public partial class App : Application
         serviceCollection.AddSingleton<MainViewModel<ApplicationPage, UserControl>>();
         serviceCollection.AddSingleton<INavigationService<ApplicationPage, UserControl>, NavigationService<ApplicationPage, UserControl>>();
 
-        serviceCollection.AddSingleton<DataBaseContext>();
-        serviceCollection.AddSingleton<UserModel>();
-        serviceCollection.AddSingleton<Item>();
-        serviceCollection.AddSingleton<Catalogue>();
-        serviceCollection.AddSingleton<Transaction>();
-        serviceCollection.AddSingleton<Groupe>();
-        serviceCollection.AddSingleton<Permission>();
+        serviceCollection.AddTransient<DataBaseContext>();
+        serviceCollection.AddTransient<UserModel>();
+        serviceCollection.AddTransient<Item>();
+        serviceCollection.AddTransient<Catalogue>();
+        serviceCollection.AddTransient<Transaction>();
+        serviceCollection.AddTransient<Groupe>();
+        serviceCollection.AddTransient<Permission>();
 
-        serviceCollection.AddSingleton<Repository<UserModel>>();
-        serviceCollection.AddSingleton<Repository<Admin>>();
-        serviceCollection.AddSingleton<Repository<Departement>>();
-        serviceCollection.AddSingleton<Repository<Teacher>>();
-        serviceCollection.AddSingleton<Repository<Student>>();
-        serviceCollection.AddSingleton<Repository<Item>>();
-        serviceCollection.AddSingleton<Repository<Catalogue>>();
-        serviceCollection.AddSingleton<Repository<Transaction>>();
-        serviceCollection.AddSingleton<Repository<Groupe>>();
-        serviceCollection.AddSingleton<Repository<Permission>>();
+        serviceCollection.AddTransient<Repository<UserModel>>();
+        serviceCollection.AddTransient<Repository<Admin>>();
+        serviceCollection.AddTransient<Repository<Departement>>();
+        serviceCollection.AddTransient<Repository<Teacher>>();
+        serviceCollection.AddTransient<Repository<Student>>();
+        serviceCollection.AddTransient<Repository<Item>>();
+        serviceCollection.AddTransient<Repository<Catalogue>>();
+        serviceCollection.AddTransient<Repository<Transaction>>();
+        serviceCollection.AddTransient<Repository<Groupe>>();
+        serviceCollection.AddTransient<Repository<Permission>>();
 
         serviceCollection.AddSingleton<SignInViewModel<ApplicationPage, UserControl>>();
         serviceCollection.AddTransient<SignInView>();

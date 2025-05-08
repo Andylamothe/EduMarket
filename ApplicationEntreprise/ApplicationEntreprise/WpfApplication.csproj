@@ -9,6 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="utils\**" />
+    <EmbeddedResource Remove="utils\**" />
+    <None Remove="utils\**" />
+    <Page Remove="utils\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="calendar_month_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
     <None Remove="home_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
     <None Remove="inventory_2_24dp_F4C095_FILL0_wght400_GRAD0_opsz24.png" />
@@ -18,7 +25,6 @@
 
   <ItemGroup>
     <Folder Include="assets\" />
-    <Folder Include="utils\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj" />
     <ProjectReference Include="..\ViewModel\ViewModel.csproj" />
   </ItemGroup>
 

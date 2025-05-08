@@ -24,17 +24,17 @@ public partial class App : Application
         serviceCollection.AddSingleton<INavigationService<ApplicationPage, UserControl>, NavigationService<ApplicationPage, UserControl>>();
 
         serviceCollection.AddSingleton<SignInViewModel<ApplicationPage, UserControl>>();
-        serviceCollection.AddTransient<SignIn>();
+        serviceCollection.AddTransient<SignInView>();
         serviceCollection.AddSingleton<SignUpViewModel<ApplicationPage, UserControl>>();
-        serviceCollection.AddTransient<SignUp>();
+        serviceCollection.AddTransient<SignUpView>();
         serviceCollection.AddSingleton<ItemViewModel<ApplicationPage, UserControl>>();
-        serviceCollection.AddTransient<Item>();
+        serviceCollection.AddTransient<ItemView>();
         serviceCollection.AddSingleton<InventoryViewModel<ApplicationPage, UserControl>>();
-        serviceCollection.AddTransient<Inventory>();
+        serviceCollection.AddTransient<InventoryView>();
         serviceCollection.AddSingleton<CatalogueViewModel<ApplicationPage, UserControl>>();
-        serviceCollection.AddTransient<Catalogue>();
+        serviceCollection.AddTransient<CatalogueView>();
         serviceCollection.AddSingleton<CalendrierViewModel<ApplicationPage, UserControl>>();
-        serviceCollection.AddTransient<Calendrier>();
+        serviceCollection.AddTransient<CalendrierView>();
 
 
         ServiceProvider = serviceCollection.BuildServiceProvider();
@@ -43,7 +43,7 @@ public partial class App : Application
 
         navService.RegisterPage(ApplicationPage.SignIn, () =>
         {
-            var view = ServiceProvider.GetRequiredService<SignIn>();
+            var view = ServiceProvider.GetRequiredService<SignInView>();
             view.DataContext = ServiceProvider.GetRequiredService<SignInViewModel<ApplicationPage, UserControl>>();
             return view;
         }).RegisterPage(ApplicationPage.SignUp, () =>

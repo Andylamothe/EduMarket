@@ -7,10 +7,10 @@ namespace WpfApplication.page
     /// <summary>
     /// Logique d'interaction pour SignUp.xaml
     /// </summary>
-    public partial class SignUp : UserControl
+    public partial class SignUpView : UserControl
     {
         private readonly SignUpViewModel<ApplicationPage, UserControl> _viewModel;  
-        public SignUp(SignUpViewModel<ApplicationPage, UserControl> viewModel)
+        public SignUpView(SignUpViewModel<ApplicationPage, UserControl> viewModel)
         {
             InitializeComponent();
             _viewModel = viewModel;

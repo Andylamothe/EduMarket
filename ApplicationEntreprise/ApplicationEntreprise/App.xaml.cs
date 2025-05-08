@@ -62,10 +62,12 @@ public partial class App : Application
         ServiceProvider = serviceCollection.BuildServiceProvider();
         var mainWindow = ServiceProvider.GetRequiredService<MainWindow>();
         var navService = ServiceProvider.GetRequiredService<INavigationService<ApplicationPage, UserControl>>();
+        
         var dbContext = ServiceProvider.GetRequiredService<DataBaseContext>();
 
         dbContext.Database.EnsureDeleted();
         dbContext.Database.EnsureCreated();
+
 
         navService.RegisterPage(ApplicationPage.SignIn, () =>
         {

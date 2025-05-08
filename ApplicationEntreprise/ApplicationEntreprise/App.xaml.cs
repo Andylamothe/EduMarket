@@ -48,27 +48,27 @@ public partial class App : Application
             return view;
         }).RegisterPage(ApplicationPage.SignUp, () =>
         {
-            var view = ServiceProvider.GetRequiredService<SignUp>();
+            var view = ServiceProvider.GetRequiredService<SignUpView>();
             view.DataContext = ServiceProvider.GetRequiredService<SignUpViewModel<ApplicationPage, UserControl>>();
             return view;
         }).RegisterPage(ApplicationPage.Item, () =>
         {
-            var view = ServiceProvider.GetRequiredService<Item>();
+            var view = ServiceProvider.GetRequiredService<ItemView>();
             view.DataContext = ServiceProvider.GetRequiredService<ItemViewModel<ApplicationPage, UserControl>>();
             return view;
         }).RegisterPage(ApplicationPage.Inventory, () =>
         {
-            var view = ServiceProvider.GetRequiredService<Inventory>();
+            var view = ServiceProvider.GetRequiredService<InventoryView>();
             view.DataContext = ServiceProvider.GetRequiredService<InventoryViewModel<ApplicationPage, UserControl>>();
             return view;
         }).RegisterPage(ApplicationPage.Catalogue, () =>
         {
-            var view = ServiceProvider.GetRequiredService<Catalogue>();
+            var view = ServiceProvider.GetRequiredService<CatalogueView>();
             view.DataContext = ServiceProvider.GetRequiredService<CatalogueViewModel<ApplicationPage, UserControl>>();
             return view;
         }).RegisterPage(ApplicationPage.Calendrier, () =>
         {
-            var view = ServiceProvider.GetRequiredService<Calendrier>();
+            var view = ServiceProvider.GetRequiredService<CalendrierView>();
             view.DataContext = ServiceProvider.GetRequiredService<CalendrierViewModel<ApplicationPage, UserControl>>();
             return view;
         });

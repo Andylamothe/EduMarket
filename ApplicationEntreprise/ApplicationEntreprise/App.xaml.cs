@@ -48,27 +48,47 @@ public partial class App : Application
             return view;
         }).RegisterPage(ApplicationPage.SignUp, () =>
         {
+<<<<<<< HEAD
             var view = ServiceProvider.GetRequiredService<SignUp>();
+=======
+            var view = ServiceProvider.GetRequiredService<SignUpView>();
+>>>>>>> 8f655e4ec8a345384633f47e78bb404759f39923
             view.DataContext = ServiceProvider.GetRequiredService<SignUpViewModel<ApplicationPage, UserControl>>();
             return view;
         }).RegisterPage(ApplicationPage.Item, () =>
         {
+<<<<<<< HEAD
             var view = ServiceProvider.GetRequiredService<Item>();
+=======
+            var view = ServiceProvider.GetRequiredService<ItemView>();
+>>>>>>> 8f655e4ec8a345384633f47e78bb404759f39923
             view.DataContext = ServiceProvider.GetRequiredService<ItemViewModel<ApplicationPage, UserControl>>();
             return view;
         }).RegisterPage(ApplicationPage.Inventory, () =>
         {
+<<<<<<< HEAD
             var view = ServiceProvider.GetRequiredService<Inventory>();
+=======
+            var view = ServiceProvider.GetRequiredService<InventoryView>();
+>>>>>>> 8f655e4ec8a345384633f47e78bb404759f39923
             view.DataContext = ServiceProvider.GetRequiredService<InventoryViewModel<ApplicationPage, UserControl>>();
             return view;
         }).RegisterPage(ApplicationPage.Catalogue, () =>
         {
+<<<<<<< HEAD
             var view = ServiceProvider.GetRequiredService<Catalogue>();
+=======
+            var view = ServiceProvider.GetRequiredService<CatalogueView>();
+>>>>>>> 8f655e4ec8a345384633f47e78bb404759f39923
             view.DataContext = ServiceProvider.GetRequiredService<CatalogueViewModel<ApplicationPage, UserControl>>();
             return view;
         }).RegisterPage(ApplicationPage.Calendrier, () =>
         {
+<<<<<<< HEAD
             var view = ServiceProvider.GetRequiredService<Calendrier>();
+=======
+            var view = ServiceProvider.GetRequiredService<CalendrierView>();
+>>>>>>> 8f655e4ec8a345384633f47e78bb404759f39923
             view.DataContext = ServiceProvider.GetRequiredService<CalendrierViewModel<ApplicationPage, UserControl>>();
             return view;
         });

@@ -11,9 +11,13 @@ public partial class SignInViewModel<TPage, T> : BaseViewModel<TPage, T> where T
     [ObservableProperty]
     private string username;
 
+    [ObservableProperty]
+    private string password;
+
     public SignInViewModel(INavigationService<TPage, T> navigationService) : base(navigationService)
     {
         _handler.RegisterChannel("username", (_, msg) => Username = msg)
+            .RegisterChannel("password", (_, msg) => Password = msg)
             .Listen(this);
     }
 }

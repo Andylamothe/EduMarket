@@ -5,12 +5,12 @@ using ViewModel.viewmodel;
 namespace WpfApplication.page
 {
     /// <summary>
-    /// Logique d'interaction pour Catalogue.xaml
+    /// Logique d'interaction pour SignIn.xaml
     /// </summary>
-    public partial class Catalogue : UserControl
+    public partial class SignInView : UserControl
     {
-        private readonly CatalogueViewModel<ApplicationPage, UserControl> _viewModel;
-        public Catalogue(CatalogueViewModel<ApplicationPage, UserControl> viewModel)
+        private readonly SignInViewModel<ApplicationPage, UserControl> _viewModel;
+        public SignInView(SignInViewModel<ApplicationPage, UserControl> viewModel   )
         {
             InitializeComponent();
             _viewModel = viewModel;

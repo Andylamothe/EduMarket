@@ -7,10 +7,10 @@ namespace WpfApplication.page
     /// <summary>
     /// Logique d'interaction pour Inventory.xaml
     /// </summary>
-    public partial class Inventory : UserControl
+    public partial class InventoryView : UserControl
     {
         private readonly InventoryViewModel<ApplicationPage, UserControl> _viewModel;
-        public Inventory(InventoryViewModel<ApplicationPage, UserControl> viewModel)
+        public InventoryView(InventoryViewModel<ApplicationPage, UserControl> viewModel)
         {
             InitializeComponent();
             _viewModel = viewModel;

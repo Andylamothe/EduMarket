@@ -7,10 +7,10 @@ namespace WpfApplication.page
     /// <summary>
     /// Logique d'interaction pour Item.xaml
     /// </summary>
-    public partial class Item : UserControl
+    public partial class ItemView : UserControl
     {
         private readonly ItemViewModel<ApplicationPage, UserControl> _viewModel;
-        public Item(ItemViewModel<ApplicationPage, UserControl> viewModel)
+        public ItemView(ItemViewModel<ApplicationPage, UserControl> viewModel)
         {
             InitializeComponent();
             _viewModel = viewModel;

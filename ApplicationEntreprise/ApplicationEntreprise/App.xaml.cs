@@ -4,6 +4,9 @@ using System.Windows;
 using System.Windows.Controls;
 using ViewModel.viewmodel;
 using WpfApplication.page;
+using Model.table;
+using Model.repository;
+using Model;
 
 namespace ApplicationEntreprise;
 
@@ -23,6 +26,25 @@ public partial class App : Application
         serviceCollection.AddSingleton<MainViewModel<ApplicationPage, UserControl>>();
         serviceCollection.AddSingleton<INavigationService<ApplicationPage, UserControl>, NavigationService<ApplicationPage, UserControl>>();
 
+        serviceCollection.AddSingleton<DataBaseContext>();
+        serviceCollection.AddSingleton<UserModel>();
+        serviceCollection.AddSingleton<Item>();
+        serviceCollection.AddSingleton<Catalogue>();
+        serviceCollection.AddSingleton<Transaction>();
+        serviceCollection.AddSingleton<Groupe>();
+        serviceCollection.AddSingleton<Permission>();
+
+        serviceCollection.AddSingleton<Repository<UserModel>>();
+        serviceCollection.AddSingleton<Repository<Admin>>();
+        serviceCollection.AddSingleton<Repository<Departement>>();
+        serviceCollection.AddSingleton<Repository<Teacher>>();
+        serviceCollection.AddSingleton<Repository<Student>>();
+        serviceCollection.AddSingleton<Repository<Item>>();
+        serviceCollection.AddSingleton<Repository<Catalogue>>();
+        serviceCollection.AddSingleton<Repository<Transaction>>();
+        serviceCollection.AddSingleton<Repository<Groupe>>();
+        serviceCollection.AddSingleton<Repository<Permission>>();
+
         serviceCollection.AddSingleton<SignInViewModel<ApplicationPage, UserControl>>();
         serviceCollection.AddTransient<SignInView>();
         serviceCollection.AddSingleton<SignUpViewModel<ApplicationPage, UserControl>>();
@@ -40,6 +62,10 @@ public partial class App : Application
         ServiceProvider = serviceCollection.BuildServiceProvider();
         var mainWindow = ServiceProvider.GetRequiredService<MainWindow>();
         var navService = ServiceProvider.GetRequiredService<INavigationService<ApplicationPage, UserControl>>();
+        var dbContext = ServiceProvider.GetRequiredService<DataBaseContext>();
+
+        dbContext.Database.EnsureDeleted();
+        dbContext.Database.EnsureCreated();
 
         navService.RegisterPage(ApplicationPage.SignIn, () =>
         {

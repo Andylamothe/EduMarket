@@ -7,6 +7,8 @@ using WpfApplication.page;
 using Model.table;
 using Model.repository;
 using Model;
+using Microsoft.EntityFrameworkCore.Internal;
+using static Model.DataBaseContext;
 
 namespace ApplicationEntreprise;
 
@@ -29,7 +31,6 @@ public partial class App : Application
         serviceCollection.AddTransient<DataBaseContext>();
         serviceCollection.AddTransient<UserModel>();
         serviceCollection.AddTransient<Item>();
-        serviceCollection.AddTransient<Catalogue>();
         serviceCollection.AddTransient<Transaction>();
         serviceCollection.AddTransient<Groupe>();
         serviceCollection.AddTransient<Permission>();
@@ -40,7 +41,6 @@ public partial class App : Application
         serviceCollection.AddTransient<Repository<Teacher>>();
         serviceCollection.AddTransient<Repository<Student>>();
         serviceCollection.AddTransient<Repository<Item>>();
-        serviceCollection.AddTransient<Repository<Catalogue>>();
         serviceCollection.AddTransient<Repository<Transaction>>();
         serviceCollection.AddTransient<Repository<Groupe>>();
         serviceCollection.AddTransient<Repository<Permission>>();
@@ -67,6 +67,8 @@ public partial class App : Application
 
         dbContext.Database.EnsureDeleted();
         dbContext.Database.EnsureCreated();
+
+        DbInitializer.Seed(dbContext);
 
 
         navService.RegisterPage(ApplicationPage.SignIn, () =>

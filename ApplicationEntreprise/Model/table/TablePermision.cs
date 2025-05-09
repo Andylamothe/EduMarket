@@ -13,11 +13,7 @@ namespace Model.table
 
         public required string Name { get; set; }
 
-        public virtual required ICollection<UserModel> Users { get; set; }
-
-        public int PermissionId { get; set; }
-
-        [ForeignKey("IdPermission")]
+        [ForeignKey("PermissionId")]
         public virtual required Permission Permission { get; set; }
     }
 

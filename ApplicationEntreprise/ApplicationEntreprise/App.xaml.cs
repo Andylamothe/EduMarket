@@ -111,7 +111,7 @@ public partial class App : Application
 
         mainWindow.Show();
 
-        navService.NavigateTo(ApplicationPage.SignUp);
+        navService.NavigateTo(ApplicationPage.Item);
 
         base.OnStartup(e);
     }

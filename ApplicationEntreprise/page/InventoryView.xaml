@@ -7,93 +7,97 @@
              mc:Ignorable="d" 
              d:DesignHeight="700" 
              d:DesignWidth="1200"
-             Background="#FF2C3E50"
-             >
+             Background="#FF2C3E50">
     <Grid Background="#FF2C3E50">
         <!-- Titre centré -->
         <TextBlock Text="Inventory" 
-          FontSize="50"
-          FontWeight="Bold" 
-          Foreground="#F4C095"
-          Margin="0,10,0,0"
-          HorizontalAlignment="Center"/>
+               FontSize="50"
+               FontWeight="Bold" 
+               Foreground="#F4C095"
+               Margin="0,10,0,0"
+               HorizontalAlignment="Center"/>
 
         <!-- Conteneur principal avec bordure -->
         <Border VerticalAlignment="Center" HorizontalAlignment="Center" 
-         BorderBrush="#F4C095" BorderThickness="3" CornerRadius="10" Padding="10">
-            <Grid Background="#FF34495E" Width="800" Height="500">
+            BorderBrush="#F4C095" BorderThickness="3" CornerRadius="10" Padding="10">
+            <Grid Background="#FF34495E" Width="800" Height="600">
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
                 <!-- Titre de la liste -->
                 <TextBlock Grid.Row="0"
-                  Text="Liste des Items"
-                  FontSize="34"
-                  Foreground="#F4C095"
-                  HorizontalAlignment="Center"
-                  Margin="0,0,0,20"/>
+                       Text="Liste des Items"
+                       FontSize="34"
+                       Foreground="#F4C095"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+                <!-- Formulaire pour ajouter un item -->
+                <StackPanel Grid.Row="1" Orientation="Vertical" Margin="20">
+                    <TextBlock Text="Ajouter un nouvel item" 
+                           FontSize="20" 
+                           FontWeight="Bold" 
+                           Foreground="#F4C095" 
+                           Margin="0,0,0,10"/>
+                    <TextBox x:Name="ItemNameTextBox" 
+                         Text="Nom de l'item" 
+                         Margin="0,0,0,10" 
+                         Background="#748CAB" 
+                         Foreground="#F4C095"/>
+                    <TextBox x:Name="ItemDescriptionTextBox" 
+                         Text="Description" 
+                         Margin="0,0,0,10" 
+                         Background="#748CAB" 
+                         Foreground="#F4C095"/>
+                    <TextBox x:Name="ItemPriceTextBox" 
+                         Text="Prix" 
+                         Margin="0,0,0,10" 
+                         Background="#748CAB" 
+                         Foreground="#F4C095" 
+                         InputScope="Number"/>
+                    <Button Content="Ajouter" 
+                        Click="AddItemButton_Click" 
+                        Background="Green" 
+                        Foreground="White" 
+                        HorizontalAlignment="Left" 
+                        Width="100"/>
+                    <Button Content="Supprimer" 
+                        Click="DeleteItemButton_Click" 
+                        Background="red" 
+                        Foreground="White" 
+                        HorizontalAlignment="Left" 
+                            Margin="0,5,0,0"
+                        Width="100"/>       
+                </StackPanel>
 
                 <!-- Liste des éléments -->
-                <ListView 
-                    Grid.Row="1" 
-                    Margin="20" 
-                    Name="InventoryListView"
-                    ItemsSource="{Binding Items}"
-                    Background="#748CAB"
-                    BorderThickness="0"
-                    Foreground="#F4C095">
+                <ListView Grid.Row="2" 
+                      Margin="20" 
+                      Name="InventoryListView"
+                      ItemsSource="{Binding Items}"
+                      Background="#748CAB"
+                      BorderThickness="0"
+                      Foreground="#F4C095">
                     <ListView.Resources>
-
                         <!-- Style pour les en-têtes des colonnes -->
                         <Style TargetType="GridViewColumnHeader">
-                            <Setter 
-                                Property="Background"
-                                Value="#FF34495E"
-                            />
-                            <Setter 
-                                Property="Foreground" 
-                                Value="#F4C095"
-                            />
-                            <Setter 
-                                Property="FontWeight" 
-                                Value="Bold"
-                            />
-                            <Setter 
-                                Property="HorizontalContentAlignment" 
-                                Value="Center"
-                            />
+                            <Setter Property="Background" Value="#FF34495E"/>
+                            <Setter Property="Foreground" Value="#F4C095"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
                         </Style>
                     </ListView.Resources>
                     <ListView.View>
                         <GridView>
-                            <GridViewColumn 
-                                Header="Nom" 
-                                Width="120" 
-                                DisplayMemberBinding="{Binding Name}"
-                            />
-                            <GridViewColumn 
-                                Header="Prix" 
-                                Width="80" 
-                                DisplayMemberBinding="{Binding Price}"
-                            />
-                            <GridViewColumn 
-                                Header="Description"
-                                Width="200" 
-                                DisplayMemberBinding="{Binding Description}"
-                            />
+                            <GridViewColumn Header="Nom" Width="120" DisplayMemberBinding="{Binding Name}"/>
+                            <GridViewColumn Header="Prix" Width="80" DisplayMemberBinding="{Binding Price}"/>
+                            <GridViewColumn Header="Description" Width="200" DisplayMemberBinding="{Binding Description}"/>
                         </GridView>
                     </ListView.View>
                 </ListView>
-                <Button 
-                    Content="Delete" 
-                    HorizontalAlignment="Left" 
-                    Margin="740,60,0,0" 
-                    Grid.RowSpan="2" 
-                    VerticalAlignment="Top" 
-                    RenderTransformOrigin="1.59,1.503"
-                />
             </Grid>
         </Border>
     </Grid>

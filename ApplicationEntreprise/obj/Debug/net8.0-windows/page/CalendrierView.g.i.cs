@@ -53,7 +53,7 @@ namespace WpfApplication.page {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfApplication;V1.0.0.0;component/page/calendrierview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfApplication;component/page/calendrierview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\page\CalendrierView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

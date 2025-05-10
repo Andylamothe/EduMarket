@@ -109,7 +109,7 @@ namespace WpfApplication.page {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfApplication;V1.0.0.0;component/page/signupview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfApplication;component/page/signupview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\page\SignUpView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

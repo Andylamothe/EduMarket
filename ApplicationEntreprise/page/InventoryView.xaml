@@ -43,34 +43,33 @@
                            Foreground="#F4C095" 
                            Margin="0,0,0,10"/>
                     <TextBox x:Name="ItemNameTextBox" 
-                         Text="Nom de l'item" 
+                         Text="{Binding NewItem.Name}" 
                          Margin="0,0,0,10" 
                          Background="#748CAB" 
                          Foreground="#F4C095"/>
                     <TextBox x:Name="ItemDescriptionTextBox" 
-                         Text="Description" 
+                         Text="{Binding NewItem.Description}" 
                          Margin="0,0,0,10" 
                          Background="#748CAB" 
                          Foreground="#F4C095"/>
                     <TextBox x:Name="ItemPriceTextBox" 
-                         Text="Prix" 
+                         Text="{Binding NewItem.Price}" 
                          Margin="0,0,0,10" 
                          Background="#748CAB" 
                          Foreground="#F4C095" 
                          InputScope="Number"/>
-                    <Button Content="Ajouter" 
-                        Click="AddItemButton_Click" 
+                    <Button Content="Ajouter"
                         Background="Green" 
-                        Foreground="White" 
+                        Foreground="White"
+                        Command="{Binding AddItemCommand}"
                         HorizontalAlignment="Left" 
                         Width="100"/>
-                    <Button Content="Supprimer" 
-                        Click="DeleteItemButton_Click" 
+                    <Button Content="Supprimer"
                         Background="red" 
                         Foreground="White" 
                         HorizontalAlignment="Left" 
                             Margin="0,5,0,0"
-                        Width="100"/>       
+                        Width="100"/>
                 </StackPanel>
 
                 <!-- Liste des éléments -->
@@ -78,6 +77,7 @@
                       Margin="20" 
                       Name="InventoryListView"
                       ItemsSource="{Binding Items}"
+                      SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
                       Background="#748CAB"
                       BorderThickness="0"
                       Foreground="#F4C095">

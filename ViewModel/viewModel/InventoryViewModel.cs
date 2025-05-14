@@ -1,34 +1,70 @@
-﻿using Model.repository;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using Model;
+using Model.repository;
 using Model.table;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
+using ViewModel.messageService;
 using ViewModel.navigationService;
 using ViewModel.viewModelItem;
 
 namespace ViewModel.viewmodel;
 
-public class InventoryViewModel<TPage, T> : BaseViewModel<TPage, T> where TPage : struct, Enum
+public partial class InventoryViewModel<TPage, T> : BaseViewModel<TPage, T> where TPage : struct, Enum
 {
+    private readonly MessageHandler<UserModel> _handler;
     private readonly Repository<Item> itemRepository;
     public ObservableCollection<ViewModelItem> Items { get; }
 
-    public async Task AddItemAsync(Item newItem)
+    [ObservableProperty]
+    private UserModel user;
+
+    [ObservableProperty]
+    private ViewModelItem selectedItem;
+
+    partial void OnSelectedItemChanged(ViewModelItem? value)
     {
-        if (newItem == null) return;
-
-        // Ajouter l'item dans la base de données
-        await itemRepository.AddAsync(newItem);
-
-        // Ajouter l'item dans la collection observable
-        Items.Add(new ViewModelItem(newItem));
+        SelectedItem = value;
+        Debug.WriteLine(value);
     }
-    public InventoryViewModel(INavigationService<TPage, T> _navigationService, Repository<Item> itemRepository) : base(_navigationService) 
+
+    [ObservableProperty]
+    private ViewModelItem newItem;
+    public InventoryViewModel(INavigationService<TPage, T> _navigationService, Repository<Item> itemRepository, MessageHandler<UserModel> handler) : base(_navigationService) 
     {
         this.itemRepository = itemRepository;
         this.Items = new ObservableCollection<ViewModelItem>();
-        LoadItemsAsync();
+        this._handler = handler;
+        this.newItem = new ViewModelItem()
+        {
+            Name = "",
+            Description = "",
+            Price = 0
+        };
+        _handler.RegisterChannel("/user", async (_, msg) => { User = msg;  LoadItemsAsync(msg); })
+            .Listen(this);
     }
 
-    private async Task LoadItemsAsync()
+    [RelayCommand]
+    public async void AddItem()
+    {
+        var item = new Item
+        {
+            UserId = User.UserId,
+            Name = NewItem.Name,
+            Description = NewItem.Description,
+            Price = NewItem.Price
+        };
+
+        await itemRepository.AddAsync(item);
+        Items.Add(new ViewModelItem(item));
+        this.NewItem.Name = string.Empty;
+        this.NewItem.Description = string.Empty;
+        this.NewItem.Price = 0;
+    }
+
+    private async Task LoadItemsAsync(UserModel user)
     {
         var items = await itemRepository.GetAllAsync();
         if (items == null)
@@ -36,7 +72,10 @@ public class InventoryViewModel<TPage, T> : BaseViewModel<TPage, T> where TPage 
             return;
         }
         Items.Clear();
-        foreach (var item in items)
+        var user_item = items
+            .Where(i => i.UserId == user.UserId)
+            .ToList();
+        foreach(var item in user_item)
         {
             Items.Add(new ViewModelItem(item));
         }

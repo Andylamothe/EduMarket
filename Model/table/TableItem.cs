@@ -23,6 +23,6 @@ namespace Model.table
         public int UserId { get; set; }
 
         [ForeignKey(nameof(UserId))]
-        public virtual required UserModel Customer { get; set; }
+        public virtual UserModel Customer { get; set; }
     }
 }

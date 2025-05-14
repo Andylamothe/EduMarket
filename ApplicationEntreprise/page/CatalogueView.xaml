@@ -45,7 +45,8 @@
                 
 
                 <ListBox ItemsSource="{Binding Items}"
-                 Background="#748CAB">
+                         SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
+                    Background="#748CAB">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <Border BorderThickness="0,0,0,1"

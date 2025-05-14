@@ -15,6 +15,11 @@ namespace Model.table
 
         [ForeignKey("PermissionId")]
         public virtual required Permission Permission { get; set; }
+
+        public override string ToString()
+        {
+            return "Groupe{ID:" + GroupeId + ", Name: " + Name + ", Permission" + Permission;
+        }
     }
 
     public class Permission
@@ -28,5 +33,9 @@ namespace Model.table
 
         public bool CanUpdate { get; set; }
 
+        public override string ToString()
+        {
+            return "Permission{ID:" + PermissionId + ", CanRead: " + CanRead + ", CanWrite: " + CanWrite + ", CanUpdate: " + CanUpdate + "}";
+        }
     }
 }

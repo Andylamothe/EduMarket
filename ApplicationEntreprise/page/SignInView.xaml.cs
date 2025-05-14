@@ -1,4 +1,6 @@
-﻿using System.Windows.Controls;
+﻿using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
 using ViewModel.navigationService;
 using ViewModel.viewmodel;
 
@@ -15,6 +17,12 @@ namespace WpfApplication.page
             InitializeComponent();
             _viewModel = viewModel;
             DataContext = _viewModel;
+        }
+
+        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
+        {
+            if (this.DataContext != null)
+            { ((dynamic)this.DataContext).Password = ((PasswordBox)sender).Password; }
         }
     }
 }

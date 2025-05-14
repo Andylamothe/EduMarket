@@ -61,7 +61,6 @@ C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntrep
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\page\InventoryView.g.cs
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\page\ItemView.g.cs
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\page\SignInView.g.cs
-C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\page\SignUpView.g.cs
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication_MarkupCompile.cache
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication_MarkupCompile.lref
@@ -71,7 +70,6 @@ C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntrep
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\page\InventoryView.baml
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\page\ItemView.baml
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\page\SignInView.baml
-C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\page\SignUpView.baml
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.g.resources
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.AssemblyInfoInputs.cache
@@ -84,20 +82,6 @@ C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntrep
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.pdb
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.genruntimeconfig.cache
 C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\ApplicationEntreprise\obj\Debug\net8.0-windows\ref\WpfApplication.dll
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.csproj.AssemblyReference.cache
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\CalendrierView.g.cs
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\CatalogueView.g.cs
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\InventoryView.g.cs
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\ItemView.g.cs
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\SignInView.g.cs
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\SignUpView.g.cs
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication_MarkupCompile.cache
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication_MarkupCompile.lref
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.dll
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\refint\WpfApplication.dll
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.pdb
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\bin\Debug\net8.0-windows\WpfApplication.exe
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\bin\Debug\net8.0-windows\WpfApplication.deps.json
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\bin\Debug\net8.0-windows\WpfApplication.runtimeconfig.json
@@ -154,13 +138,22 @@ C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEnt
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\bin\Debug\net8.0-windows\ViewModel.dll
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\bin\Debug\net8.0-windows\Model.pdb
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\bin\Debug\net8.0-windows\ViewModel.pdb
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.csproj.AssemblyReference.cache
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\CalendrierView.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\CatalogueView.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\InventoryView.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\ItemView.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\SignInView.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication_MarkupCompile.cache
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication_MarkupCompile.lref
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\CalendrierView.baml
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\CatalogueView.baml
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\InventoryView.baml
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\ItemView.baml
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\SignInView.baml
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\page\SignUpView.baml
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.g.resources
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.AssemblyInfoInputs.cache
@@ -168,5 +161,8 @@ C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEnt
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.csproj.CoreCompileInputs.cache
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.sourcelink.json
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfAppli.B8D62D00.Up2Date
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.dll
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\refint\WpfApplication.dll
+C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.pdb
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\WpfApplication.genruntimeconfig.cache
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\ref\WpfApplication.dll

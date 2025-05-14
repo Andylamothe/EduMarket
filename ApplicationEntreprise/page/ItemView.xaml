@@ -10,6 +10,10 @@
              Background="#FF2C3E50"
              >
     <Grid Background="#FF2C3E50">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
 
         <TextBlock Text="Item Details" 
@@ -18,9 +22,29 @@
                        Foreground="#F4C095"
                        Margin="0,30,0,0"
                        HorizontalAlignment="Center"/>
+        <Button
+            Grid.Row="0"
+            Content="Go Back"
+            Height="40"
+            Width="100"
+            Margin="0,30,30,0"
+            Background="#FF3498DB"
+            FontSize="15"
+            FontWeight="Bold"
+            Foreground="#F4C095"
+            HorizontalAlignment="Right"
+            Cursor="Hand"
+            Command="{Binding NavigateToCommand}"
+            CommandParameter="Catalogue"
+            />
         <!-- Conteneur principal pour centrer le contenu -->
-        <Border VerticalAlignment="Center" HorizontalAlignment="Center" 
-         BorderBrush="#F4C095" BorderThickness="3" CornerRadius="10" Padding="10">
+        <Border VerticalAlignment="Center" 
+                HorizontalAlignment="Center" 
+                BorderBrush="#F4C095" 
+                BorderThickness="3" 
+                CornerRadius="10" 
+                Padding="10"
+                Grid.Row="1">
 
             <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Background="#FF34495E" Width="400" Height="300" >
                 <Grid.RowDefinitions>
@@ -36,19 +60,15 @@
 
                 <!-- Nom -->
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Nom:" FontWeight="Bold" Foreground="#F4C095" FontSize="34" />
-                <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Name}" Foreground="#F4C095" FontSize="34"/>
-
-                <!-- ID -->
-                <TextBlock Grid.Row="1" Grid.Column="0" Text="ID:" FontWeight="Bold" Foreground="#F4C095" FontSize="26"/>
-                <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ItemId}" Foreground="#F4C095" FontSize="26"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Item.Name}" Foreground="#F4C095" FontSize="34"/>
 
                 <!-- Prix -->
                 <TextBlock Grid.Row="2" Grid.Column="0" Text="Prix:" FontWeight="Bold" Foreground="#F4C095" FontSize="26"/>
-                <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Price}" Foreground="#F4C095" FontSize="26"/>
+                <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Item.Price}" Foreground="#F4C095" FontSize="26"/>
 
                 <!-- Description -->
                 <TextBlock Grid.Row="3" Grid.Column="0" Text="Description:" FontWeight="Bold" Foreground="#F4C095" VerticalAlignment="Top " FontSize="22"/>
-                <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding Description}" Foreground="#F4C095" TextWrapping="Wrap" FontSize="22"/>
+                <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding Item.Description}" Foreground="#F4C095" TextWrapping="Wrap" FontSize="22"/>
             </Grid>
         </Border>
     </Grid>

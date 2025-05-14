@@ -4,7 +4,6 @@
 public enum ApplicationPage
 {
     SignIn,
-    SignUp,
     Item,
     Inventory,
     Catalogue,

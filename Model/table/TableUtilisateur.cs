@@ -57,6 +57,7 @@ namespace Model.table
                 ", Password: " + this.Password +
                 ", Reduction: " + this.Reduction +
                 ", IsActive: " + this.IsActive +
+                ", Groupe" + this.GroupeUser +
                 "}";
         }
     }

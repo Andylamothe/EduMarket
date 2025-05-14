@@ -15,6 +15,8 @@ public partial class ViewModelItem : ObservableObject
     [ObservableProperty]
     private float price;
 
+    public ViewModelItem(){}
+
     public ViewModelItem(Item dbItem)
     {
         this.name = dbItem.Name;

@@ -7,8 +7,9 @@ using WpfApplication.page;
 using Model.table;
 using Model.repository;
 using Model;
-using Microsoft.EntityFrameworkCore.Internal;
 using static Model.DataBaseContext;
+using ViewModel.messageService;
+using ViewModel.viewModelItem;
 
 namespace ApplicationEntreprise;
 
@@ -27,6 +28,9 @@ public partial class App : Application
         serviceCollection.AddSingleton<MainWindow>();
         serviceCollection.AddSingleton<MainViewModel<ApplicationPage, UserControl>>();
         serviceCollection.AddSingleton<INavigationService<ApplicationPage, UserControl>, NavigationService<ApplicationPage, UserControl>>();
+        serviceCollection.AddSingleton<MessageHandler<UserModel>>();
+        serviceCollection.AddSingleton<MessageHandler<ViewModelItem>>();
+        serviceCollection.AddSingleton<MessageHandler<Permission>>();
 
         serviceCollection.AddTransient<DataBaseContext>();
         serviceCollection.AddTransient<UserModel>();
@@ -47,8 +51,6 @@ public partial class App : Application
 
         serviceCollection.AddSingleton<SignInViewModel<ApplicationPage, UserControl>>();
         serviceCollection.AddTransient<SignInView>();
-        serviceCollection.AddSingleton<SignUpViewModel<ApplicationPage, UserControl>>();
-        serviceCollection.AddTransient<SignUpView>();
         serviceCollection.AddSingleton<ItemViewModel<ApplicationPage, UserControl>>();
         serviceCollection.AddTransient<ItemView>();
         serviceCollection.AddSingleton<InventoryViewModel<ApplicationPage, UserControl>>();
@@ -62,7 +64,13 @@ public partial class App : Application
         ServiceProvider = serviceCollection.BuildServiceProvider();
         var mainWindow = ServiceProvider.GetRequiredService<MainWindow>();
         var navService = ServiceProvider.GetRequiredService<INavigationService<ApplicationPage, UserControl>>();
-        
+
+        var signInViewModel = ServiceProvider.GetRequiredService<SignInViewModel<ApplicationPage, UserControl>>();
+        var itemViewModel = ServiceProvider.GetRequiredService<ItemViewModel<ApplicationPage, UserControl>>();
+        var inventoryViewModel = ServiceProvider.GetRequiredService<InventoryViewModel<ApplicationPage, UserControl>>();
+        var catalogueViewModel = ServiceProvider.GetRequiredService<CatalogueViewModel<ApplicationPage, UserControl>>();
+        var calendrierViewModel = ServiceProvider.GetRequiredService<CalendrierViewModel<ApplicationPage, UserControl>>();
+
         var dbContext = ServiceProvider.GetRequiredService<DataBaseContext>();
 
         dbContext.Database.EnsureDeleted();
@@ -74,32 +82,27 @@ public partial class App : Application
         navService.RegisterPage(ApplicationPage.SignIn, () =>
         {
             var view = ServiceProvider.GetRequiredService<SignInView>();
-            view.DataContext = ServiceProvider.GetRequiredService<SignInViewModel<ApplicationPage, UserControl>>();
-            return view;
-        }).RegisterPage(ApplicationPage.SignUp, () =>
-        {
-            var view = ServiceProvider.GetRequiredService<SignUpView>();
-            view.DataContext = ServiceProvider.GetRequiredService<SignUpViewModel<ApplicationPage, UserControl>>();
+            view.DataContext = signInViewModel;
             return view;
         }).RegisterPage(ApplicationPage.Item, () =>
         {
             var view = ServiceProvider.GetRequiredService<ItemView>();
-            view.DataContext = ServiceProvider.GetRequiredService<ItemViewModel<ApplicationPage, UserControl>>();
+            view.DataContext = itemViewModel;
             return view;
         }).RegisterPage(ApplicationPage.Inventory, () =>
         {
             var view = ServiceProvider.GetRequiredService<InventoryView>();
-            view.DataContext = ServiceProvider.GetRequiredService<InventoryViewModel<ApplicationPage, UserControl>>();
+            view.DataContext = inventoryViewModel;
             return view;
         }).RegisterPage(ApplicationPage.Catalogue, () =>
         {
             var view = ServiceProvider.GetRequiredService<CatalogueView>();
-            view.DataContext = ServiceProvider.GetRequiredService<CatalogueViewModel<ApplicationPage, UserControl>>();
+            view.DataContext = catalogueViewModel;
             return view;
         }).RegisterPage(ApplicationPage.Calendrier, () =>
         {
             var view = ServiceProvider.GetRequiredService<CalendrierView>();
-            view.DataContext = ServiceProvider.GetRequiredService<CalendrierViewModel<ApplicationPage, UserControl>>();
+            view.DataContext = calendrierViewModel;
             return view;
         });
 
@@ -111,7 +114,7 @@ public partial class App : Application
 
         mainWindow.Show();
 
-        navService.NavigateTo(ApplicationPage.Catalogue);
+        navService.NavigateTo(ApplicationPage.SignIn);
 
         base.OnStartup(e);
     }

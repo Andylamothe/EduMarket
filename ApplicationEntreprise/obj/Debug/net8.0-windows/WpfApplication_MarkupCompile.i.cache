@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\App.xaml
-7690603614
+6-1337356451
 
-121149351518
+11238019045
 22266048964
-MainWindow.xaml;page\CalendrierView.xaml;page\CatalogueView.xaml;page\InventoryView.xaml;page\ItemView.xaml;page\SignInView.xaml;page\SignUpView.xaml;
+MainWindow.xaml;page\CalendrierView.xaml;page\CatalogueView.xaml;page\InventoryView.xaml;page\ItemView.xaml;page\SignInView.xaml;
 
-False
+True
 

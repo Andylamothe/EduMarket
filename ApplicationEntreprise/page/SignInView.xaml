@@ -29,20 +29,7 @@
                Margin="0,0,0,5"
                HorizontalAlignment="Center"/>
             <TextBox x:Name="inputEmail"
-             Height="40"
-             Width="200"
-             Padding="10,0,10,0"
-             Background="#FF34495E"
-             Foreground="White"
-             HorizontalAlignment="Center"
-             VerticalContentAlignment="Center"/>
-
-            <!-- Password   -->
-            <TextBlock Text="Password" 
-               Foreground="White"
-               Margin="0,20,0,5"
-               HorizontalAlignment="Center"/>
-            <PasswordBox x:Name="inputPassword"
+                 Text="{Binding Username, Mode=TwoWay}"
                  Height="40"
                  Width="200"
                  Padding="10,0,10,0"
@@ -50,6 +37,30 @@
                  Foreground="White"
                  HorizontalAlignment="Center"
                  VerticalContentAlignment="Center"/>
+
+            <!-- Password   -->
+            <TextBlock Text="Password" 
+                Foreground="White"
+                Margin="0,20,0,5"
+                HorizontalAlignment="Center"/>
+            <!-- 
+                Faire un service Helper pour faire le binding, car le control PasswordBox ne permet pas de faire le binding direct, car security issue 
+                Il faudrait faire un security Helper que lui gere le binding entre le ViewModel et le PasswordBox
+                Meilleur Facon (facon recommender, mais plus complexe)
+            -->   
+            <!--
+                Facon trouver sur stackoverflow: https://stackoverflow.com/questions/1483892/how-to-bind-to-a-passwordbox-in-mvvm
+                (Facon plus simple a implementer et permet de faire la meme chose)
+            -->
+            <PasswordBox x:Name="inputTestPassword"
+                 Height="40"
+                 Width="200"
+                 Padding="10,0,10,0"
+                 Background="#FF34495E"
+                 Foreground="White"
+                 HorizontalAlignment="Center"
+                 VerticalContentAlignment="Center"
+                 PasswordChanged="PasswordBox_PasswordChanged"/>
 
             <!-- Sign In boutton -->
             <Button x:Name="btnSignIn"
@@ -62,28 +73,8 @@
             FontWeight="Bold"
             Foreground="#F4C095"
             HorizontalAlignment="Center"
-            Cursor="Hand"/>
-
-            <!-- Sign Up boutton -->
-            <Button x:Name="btnNavigateSignUpFromSignIn"
-            Content="Sign Up"
-            Height="40"
-            Width="200"
-            Margin="0,30,0,0"
-            Background="#FF3498DB"
-            FontSize="15"
-            FontWeight="Bold"
-            Foreground="#F4C095"
-            HorizontalAlignment="Center"
             Cursor="Hand"
-            Command="{Binding NavigateToCommand}"
-            CommandParameter="SignUp"
-            />
-
-            <TextBox 
-                Text="{Binding Username}"
-            />
-
+            Command="{Binding SignInCommand}"/>
 
         </StackPanel>
     </Grid>

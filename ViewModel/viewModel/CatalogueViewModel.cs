@@ -1,8 +1,10 @@
-﻿using CommunityToolkit.Mvvm.Input;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using Model.repository;
 using Model.table;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using ViewModel.messageService;
 using ViewModel.navigationService;
 using ViewModel.viewModelItem;
 
@@ -10,12 +12,28 @@ namespace ViewModel.viewmodel;
 
 public partial class CatalogueViewModel<TPage, T> : BaseViewModel<TPage, T> where TPage : struct, Enum
 {
+    private readonly MessageHandler<ViewModelItem> _handler;
     private readonly Repository<Item> itemRepository;
     public ObservableCollection<ViewModelItem> Items { get; }
-    public CatalogueViewModel(INavigationService<TPage, T> _navigationService, Repository<Item> itemRepository) : base(_navigationService) 
+    
+    [ObservableProperty]
+    private ViewModelItem selectedItem;
+
+    partial void OnSelectedItemChanged(ViewModelItem? value)
+    {
+        if (value is not null)
+        {
+            _handler.Send("/item", value);
+            NavigateTo("Item");
+            SelectedItem = null;
+        }
+    }
+
+    public CatalogueViewModel(INavigationService<TPage, T> _navigationService, Repository<Item> itemRepository, MessageHandler<ViewModelItem> handler) : base(_navigationService) 
     {
         this.itemRepository = itemRepository;
         this.Items = new ObservableCollection<ViewModelItem>();
+        this._handler = handler;
         LoadItemsAsync();
     }
 

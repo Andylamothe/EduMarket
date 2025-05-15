@@ -1,0 +1,225 @@
+###############################################################################
+# Visual Studio
+###############################################################################
+
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.opt
+*.vbw
+
+###############################################################################
+# Build Results
+###############################################################################
+
+[Bb]in/
+[Oo]bj/
+bld/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]*/
+Debug*/
+Release*/
+Generated\ Files/
+*.dll
+*.exe
+
+###############################################################################
+# MSBuild Logs & Coverage
+###############################################################################
+
+*.log
+*.binlog
+*.coverage
+*.coveragexml
+*.buildlog.*
+*.tlog
+
+###############################################################################
+# Test Results
+###############################################################################
+
+[Tt]est[Rr]esult*/
+TestResult.xml
+*.VisualState.xml
+nunit-*.xml
+
+###############################################################################
+# .NET & NuGet
+###############################################################################
+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# NuGet packages directory (but keep build/)
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+###############################################################################
+# Azure
+###############################################################################
+
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+csx/
+*.build.csdef
+ecf/
+rcf/
+AppPackages/
+BundleArtifacts/
+*.appx
+Package.StoreAssociation.xml
+
+###############################################################################
+# Entity Framework / SQL Server
+###############################################################################
+
+*.mdf
+*.ldf
+*.ndf
+*.dbmdl
+*.dbproj.schemaview
+
+###############################################################################
+# VS Extensions / Add-ins / Plugins
+###############################################################################
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# CodeRush
+.cr/
+
+# JustCode
+.JustCode
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# AxoCover
+.axoCover/*
+!.axoCover/settings.json
+
+# DotCover
+*.dotCover
+
+# GhostDoc
+*.GhostDoc.xml
+
+###############################################################################
+# Xamarin / MonoDevelop
+###############################################################################
+
+*.userprefs
+.mfractor/
+*.jmconfig
+
+###############################################################################
+# ClickOnce / Publish
+###############################################################################
+
+publish/
+*.[Pp]ublish.xml
+
+###############################################################################
+# Other Output Files & Generated Code
+###############################################################################
+
+*.pdb
+*.ipdb
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.scc
+*.vspscc
+*.vssscc
+*.pidb
+*.svclog
+*.e2e
+*.cachefile
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+###############################################################################
+# Tools / Build Systems
+###############################################################################
+
+# Paket
+.paket/
+paket-files/
+
+# FAKE
+.fake/
+
+# Cake
+# tools/**
+# !tools/packages.config
+
+# Node
+node_modules/
+
+###############################################################################
+# Miscellaneous
+###############################################################################
+
+~$*
+*~
+*.bak
+*.tmp
+*.tss
+*.jfm
+*.pfx
+*.publishsettings
+.DS_Store
+.AppleDouble
+.LSOverride
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+###############################################################################
+# Project-specific Excludes (optional – ajoute tes règles ici)
+###############################################################################
+
+# Exemple :
+# /secrets/
+# *.local.json
+# *.devsettings

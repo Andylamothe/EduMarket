@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\
+C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\obj\Debug\net8.0-windows\
 WpfApplication
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Andy\OneDrive\Documents\HIVER 2025 - Workspace\AppCsharp\ApplicationEntreprise\App.xaml
+C:\Users\Marco\Bureau\12-to_do\AppCsharp\ApplicationEntreprise\App.xaml
 6-1337356451
 
 11238019045
-22266048964
+222-1244634154
 MainWindow.xaml;page\CalendrierView.xaml;page\CatalogueView.xaml;page\InventoryView.xaml;page\ItemView.xaml;page\SignInView.xaml;
 
 True

@@ -1,4 +1,3 @@
 # AppCsharp
-Mon Application en C# en utilisant le framework WPF
 
-Le projet et le design se trouve dans la branch dev
+La remise du projet est sur la branche remise_volet_2

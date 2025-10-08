@@ -12,9 +12,9 @@ Application desktop pour vendre du matériel scolaire entre étudiants et person
 
 - Il faut avoir cloner le repository
 **Exemple de commande a rouler**
-''''bash
+```bash
 git clone  https://github.com/AndeezMTL/EduMarket
-''''
+```
 
 - Il faut aussi avoir installer visual studio
 [https://visualstudio.microsoft.com/fr/downloads/](https://visualstudio.microsoft.com/fr/downloads/)

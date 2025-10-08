@@ -1,17 +1,19 @@
-# AppCsharp
-
+# EduMarket🎓
+Application desktop pour vendre du matériel scolaire entre étudiants et personnel scolaire.
 (Rajouter un images(ScreenShot))
 
-## Commencer
+## Prérequis
 
-La version de dotnet utiliser est la version 9.0.200
+- .NET SDK version 9.0.200
+- Visual Studio (version recommandée : 2022 ou plus récente)
+- Télécharger Visual Studio
 
 ## Pour pouvoir lancer l'application
 
 - Il faut avoir cloner le repository
 **Exemple de commande a rouler**
 ''''bash
-git clone --branch remise_volet_2 https://github.com/AndeezMTL/AppCsharp
+git clone  https://github.com/AndeezMTL/EduMarket
 ''''
 
 - Il faut aussi avoir installer visual studio
@@ -19,7 +21,19 @@ git clone --branch remise_volet_2 https://github.com/AndeezMTL/AppCsharp
 
 ## Pour rouler l'application
 
-Pour rouler l'application il faut avoir faite les etapes enterieur et choisir le porjet ApplicationEntreprise, celui-ci est un projet wpf qui permet de rouler se qu'on a pu faire de notre application.
+- Ouvrir la solution dans Visual Studio.
+
+- Sélectionner le projet ApplicationEntreprise (projet WPF).
+
+- Lancer l’application via Visual Studio (F5 ou bouton "Démarrer").
+
+## Fonctionnalités principales
+
+- Vente de matériel scolaire entre étudiants et personnel.
+
+- Interface intuitive et facile d’utilisation.
+
+- Gestion des annonces, messages et profils utilisateurs.
 
 ## Contributeur
 - Andy

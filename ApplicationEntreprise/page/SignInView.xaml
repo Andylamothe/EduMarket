@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="WpfApplication.page.SignInView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApplication.page"
+             mc:Ignorable="d" 
+             d:DesignHeight="700"
+             d:DesignWidth="1200"
+             Background="#FF2C3E50"
+             >
+    <Grid Background="#FF2C3E50">
+        <StackPanel Width="300" 
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Center"
+            Panel.ZIndex="1"        
+            >
+
+            <TextBlock Text="Sign In" 
+               FontSize="50" 
+               FontWeight="Bold"
+               Foreground="#F4C095"
+               Margin="0,0,0,30"
+               HorizontalAlignment="Center"/>
+
+            <!-- Email -->
+            <TextBlock Text="Email" 
+               Foreground="White"
+               Margin="0,0,0,5"
+               HorizontalAlignment="Center"/>
+            <TextBox x:Name="inputEmail"
+                 Text="{Binding Username, Mode=TwoWay}"
+                 Height="40"
+                 Width="200"
+                 Padding="10,0,10,0"
+                 Background="#FF34495E"
+                 Foreground="White"
+                 HorizontalAlignment="Center"
+                 VerticalContentAlignment="Center"/>
+
+            <!-- Password   -->
+            <TextBlock Text="Password" 
+                Foreground="White"
+                Margin="0,20,0,5"
+                HorizontalAlignment="Center"/>
+            <!-- 
+                Faire un service Helper pour faire le binding, car le control PasswordBox ne permet pas de faire le binding direct, car security issue 
+                Il faudrait faire un security Helper que lui gere le binding entre le ViewModel et le PasswordBox
+                Meilleur Facon (facon recommender, mais plus complexe)
+            -->   
+            <!--
+                Facon trouver sur stackoverflow: https://stackoverflow.com/questions/1483892/how-to-bind-to-a-passwordbox-in-mvvm
+                (Facon plus simple a implementer et permet de faire la meme chose)
+            -->
+            <PasswordBox x:Name="inputTestPassword"
+                 Height="40"
+                 Width="200"
+                 Padding="10,0,10,0"
+                 Background="#FF34495E"
+                 Foreground="White"
+                 HorizontalAlignment="Center"
+                 VerticalContentAlignment="Center"
+                 PasswordChanged="PasswordBox_PasswordChanged"/>
+
+            <!-- Sign In boutton -->
+            <Button x:Name="btnSignIn"
+            Content="Sign In"
+            Height="40"
+            Width="200"
+            Margin="0,30,0,0"
+            Background="#FF3498DB"
+            FontSize="15"
+            FontWeight="Bold"
+            Foreground="#F4C095"
+            HorizontalAlignment="Center"
+            Cursor="Hand"
+            Command="{Binding SignInCommand}"/>
+
+        </StackPanel>
+    </Grid>
+</UserControl>
